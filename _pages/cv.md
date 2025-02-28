@@ -12,25 +12,20 @@ redirect_from:
 Education
 ======
 * B.A. in Linguistics, Georgetown University, 2020
-  * Minor in Computer Science & Persian
-* Ph.D in Computational Linguistics, University of Washington, 2026 (expected)
+  * Minors in Computer Science & Persian
+* Ph.D in Computational Linguistics, University of Washington, ongoing
 
 Work experience
 ======
-* 2022.09 - 2023.03: Research Assistant at UW
-  * Speech processing for low-resource languages
-  * Supervisor: Gina-Anne Levow
-
 * 2020.07 - 2020.11: NLP Intern at Bytedance AI Lab
   * Multilingual speech processing
   * Supervisor: Yushi Zhao
 
-  
 Skills
 ======
 * Coding: Python, Java, C+++, R
 * Tools: PyTorch, nltk, pandas
-* Human languages: Chinese, English, Persian, Thai, Tibetan, Burmese, etc. 
+* Human languages: Chinese, English, Persian, Thai, Tibetan, Vietnamese, Burmese, Uzbek, etc. 
 
 <!-- Publications
 ======

@@ -11,3 +11,5 @@ redirect_from:
 Welcome!👋
 
 I am a fourth-year PhD student in Computational Linguistics at the [University of Washington](https://linguistics.washington.edu/) advised by [Gina-Anne Levow](https://faculty.washington.edu/levow/) and [Richard Wright](https://depts.washington.edu/phonlab/rawright.php). My research interests are phonetics, computational linguistics, field work, and marginally historical linguistics and typology. I'm particularly interested in low-resource speech NLP, language technology, quantitative modeling of speech variation, etc. 
+
+When I’m not working, you can find me on red-eye flights, at music festivals, among the mountains, or in the kitchen. 

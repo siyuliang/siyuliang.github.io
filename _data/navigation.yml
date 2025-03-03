@@ -12,11 +12,14 @@ main:
   # - title: "Portfolio"
   #   url: /portfolio/
         
-  - title: "Blog Posts"
-    url: /year-archive/
-    
+  # Comment out or remove the Blog Posts tab
+  # - title: "Blog Posts"
+  #   url: /year-archive/
+
+  # Add a new tab for Projects
+  - title: "Projects"
+    url: /projects/
+
   - title: "CV"
     url: /cv/
     
-  # - title: "Guide"
-  #   url: /markdown/

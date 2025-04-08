@@ -17,8 +17,8 @@ main:
   #   url: /year-archive/
 
   # Add a new tab for Projects
-  - title: "Projects"
-    url: /projects/
+  # - title: "Projects"
+  #   url: /projects/
 
   - title: "CV"
     url: /cv/

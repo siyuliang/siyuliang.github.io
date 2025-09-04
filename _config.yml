@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Siyu Liang"
 title_separator          : "-"
 name                     : &name "Siyu Liang"
-description              : &description "PhD student at University of Washington"
+description              : &description "PhD candidate at University of Washington"
 url                      : https://siyuliang.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "siyuliang/siyuliang.github.io"
@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Siyu Liang"
   avatar           : "profile.jpeg" # Ensure this line is correct
-  bio              : "PhD Student in Computational Linguistics"
+  bio              : "PhD candidate in Computational Linguistics"
   location         : "Seattle, WA"
   employer         :
   googlescholar    : #"https://scholar.google.com/citations?user=1Yig2jQAAAAJ&hl=en"

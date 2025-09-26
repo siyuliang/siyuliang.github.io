@@ -1,4 +1,4 @@
----
+<!-- ---
 layout: archive
 title: "Misc"
 permalink: /misc/
@@ -14,4 +14,4 @@ author_profile: true
       <p>A map of the flights I've taken over the years</p>
     </a>
   </div>
-</div>
+</div> -->

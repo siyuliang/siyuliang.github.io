@@ -9,6 +9,7 @@ author_profile: true
 
 <div style="margin-bottom: 20px;">
   <p>This is a map of the flights I've taken over the years.</p>
+  <p style="color: #666; font-size: 14px;"><em>It might take some time to load depending on the day :p</em></p>
 </div>
 
 <div style="position: relative;">
@@ -41,7 +42,7 @@ const globe = Globe()
   .arcsTransitionDuration(1000)
   .arcCurveResolution(500)
   .arcAltitude(0.4)        // Increased from 0.1 to 0.4
-  .arcAltitudeAutoScale(0.5)  // Add this to automatically scale altitude based on distance
+//   .arcAltitudeAutoScale(0.5)  // Add this to automatically scale altitude based on distance
   .arcLabel('label')
   .pointColor('color')
   .pointAltitude(0.001)

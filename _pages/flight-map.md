@@ -20,15 +20,15 @@ author_profile: true
 </div>
 
 <!-- Globe.gl and Papa Parse -->
-<script src="//unpkg.com/globe.gl"></script>
+<script src="https://unpkg.com/globe.gl"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
 
 <script>
 const elem = document.getElementById('globeViz');
 const globe = Globe()
-  .globeImageUrl('//unpkg.com/three-globe/example/img/earth-blue-marble.jpg')
-  .bumpImageUrl('//unpkg.com/three-globe/example/img/earth-topology.png')
-  .backgroundImageUrl('//unpkg.com/three-globe/example/img/night-sky.png')
+  .globeImageUrl('https://unpkg.com/three-globe/example/img/earth-blue-marble.jpg')
+  .bumpImageUrl('https://unpkg.com/three-globe/example/img/earth-topology.png')
+  .backgroundImageUrl('https://unpkg.com/three-globe/example/img/night-sky.png')
   .width(elem.offsetWidth)
   .height(600)
   .atmosphereColor('lightskyblue')

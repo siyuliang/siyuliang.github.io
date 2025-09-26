@@ -22,4 +22,8 @@ main:
 
   - title: "CV"
     url: /cv/
+
+  # new tab for misc
+  - title: "Misc"
+    url: /misc/
     

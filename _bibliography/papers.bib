@@ -1,115 +1,54 @@
 ---
 ---
 
-@string{aps = {American Physical Society,}}
+@string{acl = {Association for Computational Linguistics}}
 
-@book{einstein1920relativity,
-  title={Relativity: the Special and General Theory},
-  author={Einstein, Albert},
-  year={1920},
-  publisher={Methuen & Co Ltd},
-  html={relativity.html}
-}
-
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
-}
-
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
-}
-
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein*†, A. and Podolsky*, B. and Rosen*, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  location={New Jersey},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
-  google_scholar_id={qyhmnyLat1gC},
-  video={https://www.youtube-nocookie.com/embed/aqz-KE-bpKQ},
-  additional_info={. *More Information* can be [found here](https://github.com/alshedivat/al-folio/)},
-  annotation={* Example use of superscripts<br>† Albert Einstein},
+@inproceedings{liang2025emnlp,
+  title={Beyond WER: Probing Whisper's Sub-token Decoder Across Diverse Language Resource Levels},
+  author={Liang, Siyu and Ballier, Nicolas and Levow, Gina-Anne and Wright, Richard},
+  booktitle={Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing},
+  year={2025},
+  address={Suzhou, China},
+  publisher=acl,
   selected={true},
-  inspirehep_id = {3255}
+  note={(to appear)},
+  abbr={EMNLP}, 
+  abstract={While large multilingual automatic speech recognition (ASR) models achieve remarkable performance, the internal mechanisms of the end-to-end pipeline, particularly concerning fairness and efficacy across languages, remain underexplored. This paper introduces a fine-grained analysis of Whisper’s multilingual decoder, examining its sub-token hypotheses during transcription across languages with various resource levels. Our method traces the beam search path, capturing sub-token guesses and their associated probabilities. Results reveal that higher resource languages benefit from higher likelihood of the correct token being top-ranked, greater confidence, lower predictive entropy, and more diverse alternative candidates. Lower resource languages fare worse on these metrics, but also exhibit distinct clustering patterns in sub-token usage sometimes influenced by typology in our PCA and t-SNE analysis. This sub-token probing uncovers systematic decoding disparities masked by aggregate error rates and points towards targeted interventions to ameliorate the imbalanced development of speech technology.}, 
+  pdf={Subtoken_emnlp_working.pdf}
 }
 
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
+@inproceedings{liang2025fieldmatters,
+  title={Breaking the Transcription Bottleneck: Fine-tuning ASR Models for Extremely Low-Resource Fieldwork Languages},
+  author={Liang, Siyu and Levow, Gina-Anne},
+  booktitle={Proceedings of the 4th Workshop on NLP Applications to Field Linguistics (FieldMatters)},
+  year={2025},
+  address={Vienna, Austria},
+  publisher=acl,
+  selected={true},
+  abbr={ACL-FieldMatters}, 
+  abstract={The development of Automatic Speech Recognition (ASR) has yielded impressive results, but its use in linguistic fieldwork remains limited. Recordings collected in fieldwork contexts present unique challenges, including spontaneous speech, environmental noise, and severely constrained datasets from under-documented languages. In this paper, we benchmark the performance of two fine-tuned multilingual ASR models, MMS and XLS-R, on five typologically diverse low-resource languages with control of training data duration. Our findings show that MMS is best suited when extremely small amounts of training data are available, whereas XLS-R shows parity performance once training data exceed one hour. We provide linguistically grounded analysis for further provide insights towards practical guidelines for field linguists, highlighting reproducible ASR adaptation approaches to mitigate the transcription bottleneck in language documentation.}, 
+  pdf={https://aclanthology.org/2025.fieldmatters-1.3/}
 }
 
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
+@inproceedings{liang2025sigtyp,
+  title={Tone in Perspective: A Computational Typological Analysis of Tone Function in ASR},
+  author={Liang, Siyu and Levow, Gina-Anne},
+  booktitle={Proceedings of the 7th Workshop on Research in Computational Linguistic Typology and Multilingual NLP (SIGTYP)},
+  year={2025},
+  address={Vienna, Austria},
+  publisher=acl,
+  selected={false},
+  abbr={ACL-SIGTYP},
+  abstract={This study investigates the impact of pitch flattening on automatic speech recognition (ASR) performance across tonal and non-tonal languages. Using vocoder-based signal processing techniques, we created pitch-flattened versions of speech recordings and compared ASR performance against original recordings. Results reveal that tonal languages experience substantially larger performance degradation than non-tonal languages. Analysis of tone confusion matrices shows systematic patterns of misidentification where contour tones collapse toward level tones when pitch information is removed. Calculation of tone’s functional load at syllable and word levels demonstrates that syllable-level functional load strongly predicts ASR vulnerability to pitch flattening, while word-level patterns reflect each language’s morphological structure. These findings illuminate the differential importance of pitch information across languages and suggest that ASR systems for languages with high syllable-level functional load require more robust pitch modeling.}, 
+  pdf={https://aclanthology.org/2025.sigtyp-1.11/}
 }
 
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
-}
-
-@Article{einstein1905photoelectriceffect,
-  bibtex_show={true},
-  abbr={Ann. Phys.},
-  title="{{\"U}ber einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt}",
-  author={Albert Einstein},
-  abstract={This is the abstract text.},
-  journal={Ann. Phys.},
-  volume={322},
-  number={6},
-  pages={132--148},
-  year={1905},
-  doi={10.1002/andp.19053220607},
-  award={Albert Einstein receveid the **Nobel Prize in Physics** 1921 *for his services to Theoretical Physics, and especially for his discovery of the law of the photoelectric effect*},
-  award_name={Nobel Prize}
-}
-
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif},
-  abbr={Vision}
+@inproceedings{liang2020plc,
+  title={Documenting Eynu: A Case Study of Language Contact},
+  author={Liang, Siyu},
+  booktitle={Proceedings of the 43rd Annual Penn Linguistics Conference},
+  year={2020},
+  selected={false},
+  abbr={PLC},
+  pdf={https://repository.upenn.edu/entities/publication/9582487d-e614-4e84-b0b6-bbdf57b1dbd9}
 }

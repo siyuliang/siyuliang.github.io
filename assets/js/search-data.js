@@ -23,6 +23,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/presentations/";
           },
+        },{id: "nav-teaching",
+          title: "teaching",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/teaching/";
+          },
         },{id: "nav-cv",
           title: "cv",
           description: "You access the full cv in pdf by clicking the icon on the right",
@@ -398,7 +405,10 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-presented-my-work-on-the-acoustics-of-performed-sexual-orientation-in-thai-at-nwav-ap-8-in-singapore-it-was-a-lot-of-fun",
+            },},{id: "news-i-defended-my-general-examination-i-m-a-phd-candidate-now",
+          title: 'I defended my General Examination. I’m a PhD Candidate now!',
+          description: "",
+          section: "News",},{id: "news-presented-my-work-on-the-acoustics-of-performed-sexual-orientation-in-thai-at-nwav-ap-8-in-singapore-it-was-a-lot-of-fun",
           title: 'Presented my work on the acoustics of performed sexual orientation in Thai at...',
           description: "",
           section: "News",},{id: "news-1-paper-accepted-to-emnlp-2025-main-see-you-in-suzhou",

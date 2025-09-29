@@ -3,11 +3,11 @@
 # -----------------------------------------------------------------------------
 
 title: blank # the website title (if blank, full name will be used instead)
-first_name: You
-middle_name: R.
-last_name: Name
+first_name: Siyu
+middle_name: 
+last_name: Liang
 contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
+  Feel free to reach out!
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 footer_text: >
@@ -192,6 +192,9 @@ exclude:
   - README.md
   - readme_preview/
   - vendor
+  - _news/announcement_2_archive.md  # Add this line
+  - _news/announcement_3_archive.md  # Add this line
+
 keep_files:
   - CNAME
   - .nojekyll
@@ -340,6 +343,8 @@ external_links:
   rel: external nofollow noopener
   target: _blank
   exclude:
+
+
 
 # -----------------------------------------------------------------------------
 # Responsive WebP Images

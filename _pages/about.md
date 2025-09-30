@@ -9,8 +9,8 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>📷 in Kiama, Australia</p>
-    <p>August 2025</p>
+    <p style="text-align: center;">📷 in Kiama, Australia</p>
+    <p style="text-align: center;">August 2025</p>
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -28,10 +28,30 @@ latest_posts:
 
 I am a fifth-year PhD candidate in Computational Linguistics at the [University of Washington](https://linguistics.washington.edu/) advised by Drs. **[Gina-Anne Levow](https://faculty.washington.edu/levow/)** and **[Richard Wright](https://depts.washington.edu/phonlab/rawright.php)**. My research interests are phonetics, computational linguistics, field work, and marginally historical linguistics and typology. I'm particularly interested in low-resource speech NLP, language technology, quantitative modeling of speech variation, etc. 
 
-When I’m not working, you can find me on red-eye flights ✈️, at concerts 🎶, in the mountains 🏞️, or occasionally on the wall 🧗. 
+<style>
+.lightbox { display: none; position: fixed; z-index: 999; padding-top: 50px; left: 0; top: 0; width: 100%; height: 100%; overflow: auto; background-color: rgba(0,0,0,0.9); cursor: pointer; }
+.lightbox-content { margin: auto; display: block; max-width: 90%; max-height: 90%; }
+.lightbox-caption { margin: auto; display: block; width: 80%; max-width: 700px; text-align: center; color: #ccc; padding: 10px 0; }
+.close { position: absolute; top: 15px; right: 35px; color: #f1f1f1; font-size: 40px; font-weight: bold; cursor: pointer; }
+</style>
+
+<div id="myLightbox" class="lightbox" onclick="document.getElementById('myLightbox').style.display='none'">
+  <span class="close" onclick="document.getElementById('myLightbox').style.display='none'">&times;</span>
+  <img class="lightbox-content" id="lightboxImg">
+  <div class="lightbox-caption" id="lightboxCaption"></div>
+</div>
+
+<script>
+function openLightbox(imgSrc, caption) {
+  document.getElementById('myLightbox').style.display = 'block';
+  document.getElementById('lightboxImg').src = imgSrc;
+  document.getElementById('lightboxCaption').innerHTML = caption;
+}
+</script>
+
+When I'm not working, you can find me on <a href="#" onclick="openLightbox('assets/img/flight-ICN-SEA.jpg', 'Sunrise on flight KE 19 from ICN to SEA, December 2021'); return false;">red-eye flights</a> ✈️, at <a href="#" onclick="openLightbox('assets/img/concert_serrini.jpg', 'Serrini, one of my favorite Hong Kong singers, in Vancouver, November 2024'); return false;">concerts</a> 🎶, in <a href="#" onclick="openLightbox('assets/img/hiking_ethiopia.jpg', 'Hiking in Tigray, Ethiopia, March 2024'); return false;">the mountains</a> 🏞️, and occasionally <a href="#" onclick="openLightbox('assets/img/climbing_krabi.jpg', 'Climbing in Krabi, Thailand, August 2025'); return false;">up the wall</a> 🧗 or <a href="#" onclick="openLightbox('assets/img/diving_bali.jpg', 'Diving the USS Liberty wreck in Tulamben, Indonesia, September 2025'); return false;">under the sea</a> 🤿. 
 
 You can reach me at liangsy [@] uw [dot] edu. 
-
 
 <!-- Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
 

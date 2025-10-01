@@ -37,7 +37,14 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "news-i-defended-my-general-examination-i-m-a-phd-candidate-now",
+        },{id: "dropdown-blog",
+              title: "blog",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/blog/";
+              },
+            },{id: "news-i-defended-my-general-examination-i-m-a-phd-candidate-now",
           title: 'I defended my General Examination. I’m a PhD Candidate now!',
           description: "",
           section: "News",},{id: "news-presented-my-work-on-the-acoustics-of-performed-sexual-orientation-in-thai-at-nwav-ap-8-in-singapore-it-was-a-lot-of-fun",

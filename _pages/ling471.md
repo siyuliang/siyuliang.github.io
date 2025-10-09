@@ -45,11 +45,12 @@ This course is taught **in person**. Recordings will not be made. In-class activ
 | Days | Time | Location |
 |---|---|---|
 | Tue & Thur | 3:30-5:20 PM | TBD |
-<!-- 
+
 ### Teaching Staff
+
 | Role | Name | Contact | Office | Office Hours |
 |---|---|---|---|---|
-| Instructor | [Siyu Liang](https://siyuliang.github.io/) | liangsy at uw.edu | GUG 407 and [Zoom](link) | TBD | -->
+| Instructor | [Siyu Liang](https://siyuliang.github.io/) | liangsy at uw.edu | GUG 407 and [Zoom]() | TBD |
 
 ### Texts
 All readings for this class are available at no cost to you, either through open access material or through UW's library licensing of academic content. We will be doing reading from the following books (among other resources):

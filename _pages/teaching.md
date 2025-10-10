@@ -13,10 +13,10 @@ nav_order: 6
 
 ## teaching assistant
 
-* **Autumn 2025** - LING 570: Shallow Processing Techniques for Natural Language Processing
-* **Autumn 2024** - LING 570: Shallow Processing Techniques for Natural Language Processing
-* **Winter 2024** - LING 572: Advanced Statistical Methods in Natural Language Processing
-* **Autumn 2023** - LING 571: Deep Processing Techniques for Natural Language Processing
+* **Autumn 2025** - [LING 570: Shallow Processing Techniques for Natural Language Processing](https://linguistics.washington.edu/courses/2025/autumn/ling/570/c)
+* **Autumn 2024** - [LING 570: Shallow Processing Techniques for Natural Language Processing](https://linguistics.washington.edu/courses/2024/autumn/ling/570/a)
+* **Winter 2024** - [LING 572: Advanced Statistical Methods in Natural Language Processing](https://linguistics.washington.edu/courses/2024/winter/ling/572/a)
+* **Autumn 2023** - [LING 571: Deep Processing Techniques for Natural Language Processing](https://linguistics.washington.edu/courses/2023/autumn/ling/571/a)
 * **Spring 2023** - LING 471: Computational Methods for Linguists  
   *Guest lecture on Statistics Basics for NLP*
 * **Spring 2022** - LING 200: Introduction to Linguistics  

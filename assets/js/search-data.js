@@ -53,8 +53,8 @@ ninja.data = [{
           section: "News",},{id: "news-1-paper-accepted-to-emnlp-2025-main-see-you-in-suzhou",
           title: '1 paper accepted to EMNLP 2025 (main). See you in Suzhou!',
           description: "",
-          section: "News",},{id: "news-i-will-be-visiting-upcité-in-paris-november-to-december-2025-feel-free-to-reach-out",
-          title: 'I will be visiting UPCité in Paris November to December 2025. Feel free...',
+          section: "News",},{id: "news-i-will-be-visiting-the-altae-lab-at-université-paris-cité-from-november-to-december-2025-feel-free-to-reach-out",
+          title: 'I will be visiting the ALTAE lab at Université Paris Cité from November...',
           description: "",
           section: "News",},{
         id: 'social-email',

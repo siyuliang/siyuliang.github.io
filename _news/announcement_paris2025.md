@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I will be visiting [UPCité](https://u-paris.fr) in Paris November to December 2025. Feel free to reach out!
+I will be visiting the [ALTAE lab](https://altae.u-pariscite.fr/) at [Université Paris Cité](https://u-paris.fr) from November to December 2025. Feel free to reach out!

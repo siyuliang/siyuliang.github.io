@@ -18,7 +18,7 @@ ninja.data = [{
           },
         },{id: "nav-presentations",
           title: "presentations",
-          description: "conference presentations and talks",
+          description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/presentations/";

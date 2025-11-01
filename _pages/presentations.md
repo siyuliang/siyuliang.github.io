@@ -2,11 +2,11 @@
 layout: page
 permalink: /presentations/
 title: presentations
-description: conference presentations and talks
+description: 
 nav: true
 nav_order: 3
 ---
-
+non-archival conference presentations and talks
 <!-- _pages/presentations.md -->
 
 <div class="publications">

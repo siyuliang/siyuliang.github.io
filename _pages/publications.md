@@ -6,6 +6,7 @@ description:
 nav: true
 nav_order: 2
 ---
+check out my [Google Scholar](https://scholar.google.com/citations?user=1Yig2jQAAAAJ) for more up-to-date works
 
 <!-- _pages/publications.md -->
 

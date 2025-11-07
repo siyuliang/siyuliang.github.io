@@ -56,6 +56,9 @@ ninja.data = [{
           section: "News",},{id: "news-i-will-be-visiting-the-altae-lab-at-université-paris-cité-from-november-to-december-2025-feel-free-to-reach-out",
           title: 'I will be visiting the ALTAE lab at Université Paris Cité from November...',
           description: "",
+          section: "News",},{id: "news-our-paper-on-sub-token-level-disparity-in-large-speech-language-models-was-awarded-the-sac-highlight-at-emnlp-2025",
+          title: 'Our paper on sub-token level disparity in large speech language models was awarded...',
+          description: "",
           section: "News",},{
         id: 'social-email',
         title: 'email',

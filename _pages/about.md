@@ -11,6 +11,8 @@ profile:
   more_info: >
     <p style="text-align: center;">📷 in Kiama, Australia</p>
     <p style="text-align: center;">August 2025</p>
+    <p style="text-align: center;">Photo credit: <a href="https://www.instagram.com/zhenfa_mo/" target="_blank" rel="noopener noreferrer" aria-label="Instagram: Zhenfa">@Zhenfa</a></p>
+
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page

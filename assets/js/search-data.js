@@ -57,7 +57,7 @@ ninja.data = [{
           title: 'I will be visiting the ALTAE lab at Université Paris Cité from November...',
           description: "",
           section: "News",},{id: "news-our-paper-on-sub-token-level-disparity-in-multilingual-large-speech-language-models-was-awarded-an-sac-highlight-at-emnlp-2025",
-          title: '🧨Our paper on sub-token level disparity in multilingual large speech language models was...',
+          title: '🧨 Our paper on sub-token level disparity in multilingual large speech language models...',
           description: "",
           section: "News",},{
         id: 'social-email',

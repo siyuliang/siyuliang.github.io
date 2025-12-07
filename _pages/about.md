@@ -28,7 +28,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a fifth-year PhD candidate in Computational Linguistics at the [University of Washington](https://linguistics.washington.edu/) advised by Drs. **[Gina-Anne Levow](https://faculty.washington.edu/levow/)** and **[Richard Wright](https://depts.washington.edu/phonlab/rawright.php)**. My research develops computational methods for multilingual and under-resourced speech grounded in linguistic theory and fairness. 
+I am a fifth-year PhD candidate in Computational Linguistics at the [University of Washington](https://linguistics.washington.edu/) advised by Drs. **[Gina-Anne Levow](https://faculty.washington.edu/levow/)** and **[Richard Wright](https://linguistics.washington.edu/people/richard-wright)**. My research develops computational methods for multilingual and under-resourced speech grounded in linguistic theory and fairness. 
 
 I study how large speech language models represent and generalize across phonetic and structural variation, and design methods to evaluate and improve their performance across resource levels and dialectal variation. As a linguist, I am particularly interested in studying speech variation through both lab phonology and corpus-based approaches. I am also interested in how computational approaches can be applied to linguistic analysis and documentation, and I have worked on Iranian, Tibeto-Burman, Turkic, Nilotic, and areally Southeast Asian languages. I actively conduct fieldwork and collaborate with field linguists to build models and resources in real-world documentation settings. 
 

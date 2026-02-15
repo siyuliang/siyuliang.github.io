@@ -3,6 +3,57 @@
 
 @string{acl = {Association for Computational Linguistics}}
 
+@inproceedings{liang2026lrec,
+  title={The Limits of Data Scaling: Sub-token Utilization and Acoustic Saturation in Multilingual ASR},
+  author={Liang, Siyu and Ballier, Nicolas and Levow, Gina-Anne and Wright, Richard},
+  booktitle={Proceedings of the 15th International Conference on Language Resources and Evaluation (LREC 2026)},
+  year={2026},
+  address={Palma de Mallorca, Spain},
+  publisher={European Language Resources Association (ELRA)},
+  selected={true},
+  abbr={LREC},
+  abstract={How much audio is needed to fully observe a multilingual ASR model's learned sub-token inventory across languages, and does data disparity in multilingual pre-training affect how these tokens are utilized during inference? We address this question by analyzing Whisper's decoding behavior during inference across 49 languages. By logging decoding candidate sub-tokens and tracking their cumulative discovery over time, we study the utilization pattern of the model's sub-token space. Results show that the total number of discovered tokens remains largely independent of a language's pre-training hours, indicating that data disparity does not strongly influence lexical diversity in the model's hypothesis space. Sub-token discovery rates follow a consistent exponential saturation pattern across languages, suggesting a stable time window after which additional audio yields minimal new sub-token activation. We refer to this convergence threshold as \textit{acoustic saturation time} (AST). Further analyses of rank–frequency distributions reveal Zipf-like patterns better modeled by a Zipf–Mandelbrot law, and mean sub-token length shows a positive correlation with resource level. Additionally, those metrics show more favorable patterns for languages in the Latin script than those in scripts such as Cyrillic, CJK and Semitic. Together, our study suggests that sub-token utilization during multilingual ASR inference is constrained more by the statistical, typological, and orthographical structure of the speech than by training data scale, providing an empirical basis for more equitable corpus construction and cross-lingual evaluation.},
+  pdf={https://arxiv.org/abs/2510.22492}
+}
+
+@inproceedings{scott2026lrec,
+  title={A Sociophonetic Analysis of Racial Bias in Commercial ASR Systems Using the Pacific Northwest English Corpus},
+  author={Scott, Michael and Liang, Siyu and Wassink, Alicia and Levow, Gina-Anne},
+  booktitle={Proceedings of the 15th International Conference on Language Resources and Evaluation (LREC 2026)},
+  year={2026},
+  address={Palma de Mallorca, Spain},
+  publisher={European Language Resources Association (ELRA)},
+  selected={true},
+  abbr={LREC},
+  abstract={This paper presents a systematic evaluation of racial bias in four major commercial automatic speech recognition (ASR) systems using the Pacific Northwest English (PNWE) corpus. We analyze transcription accuracy across speakers from four ethnic backgrounds (African American, Caucasian American, ChicanX, and Yakama) and examine how sociophonetic variation contributes to differential system performance. We introduce a heuristically-determined Phonetic Error Rate (PER) metric that links recognition errors to specific linguistically motivated variables derived from sociophonetic annotation. Our analysis of eleven sociophonetic features reveals that vowel quality variation, particularly resistance to the low-back merger and pre-nasal merger patterns, is systematically associated with differential error rates across ethnic groups, with the most pronounced effects for African American speakers across all evaluated systems. These findings demonstrate that acoustic modeling of dialectal phonetic variation, rather than lexical or syntactic factors, remains a primary source of bias in commercial ASR systems. The study establishes the PNWE corpus as a valuable resource for bias evaluation in speech technologies and provides actionable guidance for improving ASR performance through targeted representation of sociophonetic diversity in training data.},
+  pdf={https://arxiv.org/abs/2510.22495}
+}
+
+@inproceedings{liang2026fieldmatters,
+  title={Hybrid Neural-LLM Pipeline for Morphological Glossing in Endangered Language Documentation: A Case Study of Jungar Tuvan},
+  author={Liang, Siyu and Mawkanuli, Talant and Levow, Gina-Anne},
+  booktitle={Proceedings of the 5th Workshop on NLP Applications to Field Linguistics (FieldMatters)},
+  year={2026},
+  address={Rabat, Morocco},
+  publisher=acl,
+  selected={true},
+  abbr={EACL-FieldMatters},
+  abstract={Interlinear glossed text (IGT) creation remains a major bottleneck in linguistic documentation and fieldwork, particularly for low-resource morphologically rich languages. We present a hybrid automatic glossing pipeline that combines neural sequence labeling with large language model (LLM) post-correction, evaluated on Jungar Tuvan, a low-resource Turkic language. Through systematic ablation studies, we show that retrieval-augmented prompting provides substantial gains over random example selection. We further find that morpheme dictionaries paradoxically hurt performance compared to providing no dictionary at all in most cases, and that performance scales approximately logarithmically with the number of few-shot examples. Most significantly, our two-stage pipeline combining a BiLSTM-CRF model with LLM post-correction yields substantial gains for most models, achieving meaningful reductions in annotation workload. Drawing on these findings, we establish concrete design principles for integrating structured prediction models with LLM reasoning in morphologically complex fieldwork contexts. These principles demonstrate that hybrid architectures offer a promising direction for computationally light solutions to automatic linguistic annotation in endangered language documentation.}
+}
+
+@inproceedings{liang2026lchange,
+  title={The Tonogenesis Continuum in Tibetan: A Computational Investigation},
+  author={Liang, Siyu and Zerong, Zhaxi},
+  booktitle={Proceedings of the 6th International Workshop on Computational Approaches to Language Change (LChange)},
+  year={2026},
+  address={Rabat, Morocco},
+  publisher=acl,
+  selected={true},
+  abbr={EACL-LChange},
+  abstract={Tonogenesis—the historical process by which segmental contrasts evolve into lexical tone—has traditionally been studied through comparative reconstruction and acoustic phonetics. We introduce a computational approach that quantifies the functional role of pitch at different stages of this sound change by measuring how pitch manipulation affects automatic speech recognition (ASR) performance. Through analysis on the sensitivity to pitch-flattening from a set of closely related Tibetan languages, we find evidence of a tonogenesis continuum: atonal Amdo dialects tolerate pitch removal the most, while fully tonal Ü-Tsang varieties show severe degradation, and intermediate Kham dialects fall measurably between these extremes. These gradient effects demonstrate how ASR models implicitly learn the shifting functional load of pitch as languages transition from consonant-based to tone-based lexical contrasts. Our findings show that computational methods can capture fine-grained stages of sound change and suggest that traditional functional load metrics, based solely on minimal pairs, may overestimate pitch dependence in transitional systems where segmental and suprasegmental cues remain phonetically intertwined.},
+  pdf={https://arxiv.org/abs/2510.22485}
+}
+
 @inproceedings{liang2025emnlp,
   title={Beyond WER: Probing Whisper's Sub-token Decoder Across Diverse Language Resource Levels},
   author={Liang, Siyu and Ballier, Nicolas and Levow, Gina-Anne and Wright, Richard},

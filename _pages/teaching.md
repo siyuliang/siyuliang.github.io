@@ -9,7 +9,7 @@ nav_order: 6
 
 ## instructor of record
 
-* **Spring 2026** - [LING 471: Computational Methods for Linguists](/teaching/ling471/win26/) *(scheduled)*
+* **Spring 2026** - [LING 471: Computational Methods for Linguists](/teaching/ling471/win26/)
 
 ## teaching assistant
 

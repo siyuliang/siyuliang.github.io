@@ -65,6 +65,9 @@ ninja.data = [{
           section: "News",},{id: "news-2-papers-on-sociophonetic-analysis-of-asr-bias-and-tokenization-in-multilingual-asr-accepted-to-lrec-2026",
           title: '2 papers (on sociophonetic analysis of ASR bias and tokenization in multilingual ASR)...',
           description: "",
+          section: "News",},{id: "news-1-paper-on-bias-in-asr-accepted-to-facct-2026-more-details-forthcoming",
+          title: '1 paper on bias in ASR accepted to FAccT 2026. More details forthcoming!...',
+          description: "",
           section: "News",},{
         id: 'social-email',
         title: 'email',

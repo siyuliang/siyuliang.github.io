@@ -31,15 +31,5 @@
       "endDate": "2020-05",
       "courses": ["Minors in Persian & Computer Science"]
     }
-  ],
-  "work": [
-    {
-      "name": "ByteDance",
-      "position": "NLP Engineer Intern",
-      "location": "Beijing, China",
-      "startDate": "2020-07",
-      "endDate": "2020-11",
-      "summary": "Mentor: Yushi Zhao"
-    }
   ]
 }

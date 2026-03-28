@@ -68,6 +68,9 @@ ninja.data = [{
           section: "News",},{id: "news-1-paper-on-bias-in-asr-accepted-to-facct-2026-more-details-forthcoming",
           title: '1 paper on bias in ASR accepted to FAccT 2026. More details forthcoming!...',
           description: "",
+          section: "News",},{id: "news-i-will-join-the-department-of-linguistics-at-rice-university-as-an-assistant-professor-in-fall-2026",
+          title: 'I will join the Department of Linguistics at Rice University as an Assistant...',
+          description: "",
           section: "News",},{
         id: 'social-email',
         title: 'email',

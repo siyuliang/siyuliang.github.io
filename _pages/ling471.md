@@ -70,7 +70,7 @@ Many of you probably use LLMs (e.g. ChatGPT, Gemini, or Claude) on a daily basis
 
 However, [a recent study (Xiao et al., 2025)](https://arxiv.org/abs/2509.21890) examined how students with different backgrounds used an LLM coding assistant for data analysis assignments. They found that **technical expertise — not AI familiarity or communication skills — was the only significant predictor of homework performance**, even though all students had equal access to the same AI tool. Students who already had strong programming foundations wrote clearer prompts, provided better context, and used AI strategically to explore and improve their work. Students without that foundation tended to use AI reactively — to fix errors or get unstuck — and often got trapped in loops of vague prompts that led nowhere. In short, LLMs amplify what you already know; they do not replace the need to learn. 
 
-If you are taking this class, that means you are still building your coding foundations. I therefore **strongly discourage** you from using LLMs to write your code for assignments, and **strongly encourage** you to learn how to code, test, and debug on your own. These are the skills that will make you effective — with or without AI assistance — in the long run.
+If you are taking this class, that means you are still building your coding foundations. I therefore **strongly discourage** you from using LLMs to write your code for assignments, and **strongly encourage** you to learn how to code, test, and debug on your own. These are the skills that will make you effective coders — with or without AI assistance — in the long run.
 
 ### Homework
 
@@ -78,7 +78,7 @@ To support this philosophy, **all homework assignments are graded on completion,
 
 ### Presentation
 
-You will form teams of 3-4 and present a paper during Week 10. Each presentation should be approximately 10 minutes long. You may choose any paper on computational linguistics that interests you. Presentations will be graded on clarity, how well you connect the paper to linguistic and social concepts discussed in class, and equal participation from all team members. 
+You will form teams of 3-4 and present a paper during Week 9-10. Each presentation should be approximately 10 minutes long. You may choose any paper on computational linguistics that interests you. Presentations will be graded on clarity, how well you connect the paper to linguistic and social concepts discussed in class, and equal participation from all team members. 
 
 ### Final Exam
 

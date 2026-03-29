@@ -3,6 +3,11 @@
   <nav id="navbar" class="navbar navbar-light navbar-expand-sm {% if site.navbar_fixed %}fixed-top{% else %}sticky-top{% endif %}" role="navigation">
     <div class="container">
       {% if page.permalink != '/' %}
+        {% if page.hide_navbar_links %}
+        <span class="navbar-brand title font-weight-lighter">
+          {{- page.navbar_title -}}
+        </span>
+        {% else %}
         <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl }}/">
           {% if page.navbar_title %}
             {{- page.navbar_title -}}
@@ -22,6 +27,7 @@
             {{- site.title -}}
           {% endif %}
         </a>
+        {% endif %}
       {% elsif site.enable_navbar_social %}
         <!-- Social Icons -->
         <div class="navbar-brand social">{% include social.liquid %}</div>
@@ -44,6 +50,7 @@
 
       <div class="collapse navbar-collapse text-right" id="navbarNav">
         <ul class="navbar-nav ml-auto flex-nowrap">
+          {% unless page.hide_navbar_links %}
           {% for page in site.pages %}
             {% if page.permalink == '/' %} {% assign about_title = page.title %} {% endif %}
           {% endfor %}
@@ -119,7 +126,8 @@
               {% endif %}
             {% endif %}
           {% endfor %}
-          {% if site.search_enabled %}
+          {% endunless %}
+          {% if site.search_enabled and page.hide_navbar_links != true %}
             <!-- Search -->
             <li class="nav-item">
               <button id="search-toggle" title="Search" onclick="openSearchModal()">

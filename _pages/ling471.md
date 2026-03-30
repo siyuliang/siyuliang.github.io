@@ -6,6 +6,7 @@ permalink: /teaching/ling471/spr26/
 nav: false
 navbar_title: LING 471 Spring 2026
 hide_navbar_links: true
+hide_footer: true
 ---
 
 # LING 471: Computational Methods for Linguists

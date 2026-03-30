@@ -52,7 +52,7 @@ This course is taught **in person**. Recordings will not be made. In-class activ
 
 | Role | Name | Contact | Office | Office Hours |
 |---|---|---|---|---|
-| Instructor | [Siyu Liang](https://siyuliang.github.io/) | liangsy at uw.edu | GUG 407 and [Zoom]() | TBD |
+| Instructor | [Siyu Liang](https://siyuliang.github.io/) | liangsy at uw.edu | GUG 407 and [Zoom](https://washington.zoom.us/j/92844050539) | Tuesday 9-10 AM on [Zoom](https://washington.zoom.us/j/92844050539)<br/>Thursday 2-3 PM in person|
 
 ### Texts
 All readings for this class are available at no cost to you, either through open access material or through UW's library licensing of academic content. We will be doing reading from the following books (among other resources):
@@ -124,7 +124,7 @@ Call SafeCampus at 206-685-7233 anytime – no matter where you work or study �
 
 ## Religious Accommodations 
 
-Washington state law requires that UW develop a policy for accommodation of student absences or significant hardship due to reasons of faith or conscience, or for organized religious activities. The UW’s policy, including more information about how to request an accommodation, is available at Religious Accommodations Policy (https://registrar.washington.edu/staffandfaculty/religious-accommodations-policy/). Accommodations must be requested within the first two weeks of this course using the Religious Accommodations Request form (https://registrar.washington.edu/students/religious-accommodations-request/).”
+Washington state law requires that UW develop a policy for accommodation of student absences or significant hardship due to reasons of faith or conscience, or for organized religious activities. The UW’s policy, including more information about how to request an accommodation, is available at [Religious Accommodations Policy](https://registrar.washington.edu/staffandfaculty/religious-accommodations-policy/). Accommodations must be requested within the first two weeks of this course using the [Religious Accommodations Request form](https://registrar.washington.edu/students/religious-accommodations-request/).
 
 ## Schedule {#schedule}
 ### Class schedule
@@ -134,7 +134,7 @@ Items in the "Reading" column are to be read **before** the class meeting they a
 | Week | Date | Topic | Reading | Due |
 |------|-------|---------|---------|-----|
 | 1 | Mar 31 | Introduction, course structure | | |
-|  | Apr 2 | Conceptual overview, data science | - [What is data science?](https://hdsr.mitpress.mit.edu/pub/jhy4g6eg/release/7?readingCollection=72befc2a) | - Online survey (on Canvas)<br/>- Request an account on the Patas cluster |
+|  | Apr 2 | Conceptual overview, data science | - [What is data science?](https://hdsr.mitpress.mit.edu/pub/jhy4g6eg/release/7?readingCollection=72befc2a) | Online survey (on Canvas) |
 | 2 | Apr 7 | Basic system and programming concepts | - [Think Python Ch. 1: The Way of the Program](https://greenteapress.com/thinkpython2/html/thinkpython2002.html) | |
 |  | Apr 9 | VSCode basics, version control | - [The IMDB reviews dataset paper](https://ai.stanford.edu/~amaas/papers/wvSent_acl2011.pdf)<br/>- [Data statements for NLP](https://olzama.github.io/Ling471/DataStatementsForNLP.pdf)<br/>- [Version control (read conceptually; ignore RStudio stuff, etc.)](https://ourcodingclub.github.io/tutorials/git/) | |
 | 3 | Apr 14 | Variables, scope, control flow, FizzBuzz | This looks like a lot, but many of these are only 4 pages long or so.<br/>- [Think Python Ch. 2: Variables, Expressions, and Statements](https://greenteapress.com/thinkpython2/html/thinkpython2003.html)<br/>- [Think Python Ch. 5: Conditionals and Recursion (5.2-5.7)](https://greenteapress.com/thinkpython2/html/thinkpython2006.html)<br/>- [Think Python Ch. 8: Strings (8.1-8.2, 8.4-8.5)](https://greenteapress.com/thinkpython2/html/thinkpython2009.html)<br/>- [Think Python Ch. 10: Lists (10.1-10.5)](https://greenteapress.com/thinkpython2/html/thinkpython2011.html)<br/>- [De Morgan's law](https://web.archive.org/web/20220327221449/https://blog.penjee.com/what-is-demorgans-law-in-programming-answered-with-pics/) | Assignment 1 |

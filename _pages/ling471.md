@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /teaching/ling471/spr26/
-# title: LING 471 Syllabus
+title: LING 471 Spring 2026
 # description: Spring 2026
 nav: false
 navbar_title: LING 471 Spring 2026

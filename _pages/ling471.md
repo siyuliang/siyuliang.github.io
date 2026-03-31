@@ -154,3 +154,5 @@ Items in the "Reading" column are to be read **before** the class meeting they a
 |  | May 28 | Presentations | | |
 | 10 | Jun 2 | Presentations | | |
 |  | Jun 4 | Final Exam | | Assignment 5 |
+
+<div style="margin-bottom: 4rem;"></div>

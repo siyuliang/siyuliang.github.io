@@ -134,8 +134,8 @@ Items in the "Reading" column are to be read **before** the class meeting they a
 
 | Week | Date | Topic | Reading | Due |
 |------|-------|---------|---------|-----|
-| 1 | Mar 31 | Introduction, course structure | | |
-|  | Apr 2 | Conceptual overview, data science | - [What is data science?](https://hdsr.mitpress.mit.edu/pub/jhy4g6eg/release/7?readingCollection=72befc2a) | Online survey (on Canvas) |
+| 1 | Mar 31 | [Introduction](/assets/pdf/ling471spr26/01_intro.pdf) | | |
+|  | Apr 2 | Conceptual overview, data science | - [What is data science?](https://hdsr.mitpress.mit.edu/pub/jhy4g6eg/release/7?readingCollection=72befc2a) | [Online survey](https://forms.gle/R4WiPdt9KgBJkYYe8) |
 | 2 | Apr 7 | Basic system and programming concepts | - [Think Python Ch. 1: The Way of the Program](https://greenteapress.com/thinkpython2/html/thinkpython2002.html) | |
 |  | Apr 9 | VSCode basics, version control | - [The IMDB reviews dataset paper](https://ai.stanford.edu/~amaas/papers/wvSent_acl2011.pdf)<br/>- [Data statements for NLP](https://olzama.github.io/Ling471/DataStatementsForNLP.pdf)<br/>- [Version control (read conceptually; ignore RStudio stuff, etc.)](https://ourcodingclub.github.io/tutorials/git/) | |
 | 3 | Apr 14 | Variables, scope, control flow, FizzBuzz | This looks like a lot, but many of these are only 4 pages long or so.<br/>- [Think Python Ch. 2: Variables, Expressions, and Statements](https://greenteapress.com/thinkpython2/html/thinkpython2003.html)<br/>- [Think Python Ch. 5: Conditionals and Recursion (5.2-5.7)](https://greenteapress.com/thinkpython2/html/thinkpython2006.html)<br/>- [Think Python Ch. 8: Strings (8.1-8.2, 8.4-8.5)](https://greenteapress.com/thinkpython2/html/thinkpython2009.html)<br/>- [Think Python Ch. 10: Lists (10.1-10.5)](https://greenteapress.com/thinkpython2/html/thinkpython2011.html)<br/>- [De Morgan's law](https://web.archive.org/web/20220327221449/https://blog.penjee.com/what-is-demorgans-law-in-programming-answered-with-pics/) | Assignment 1 |

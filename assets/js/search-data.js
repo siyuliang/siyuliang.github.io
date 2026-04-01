@@ -59,7 +59,7 @@ ninja.data = [{
           section: "News",},{id: "news-our-paper-on-sub-token-level-disparity-in-multilingual-speech-recognition-models-was-awarded-an-sac-highlight-at-emnlp-2025",
           title: '🧨 Our paper on sub-token level disparity in multilingual speech recognition models was...',
           description: "",
-          section: "News",},{id: "news-2-workshop-papers-on-automatic-igt-for-jungar-tuvan-and-tonogenesis-in-tibetan-accepted-to-fieldmatters-and-lchange-at-eacl-2026-more-details-forthcoming",
+          section: "News",},{id: "news-2-workshop-papers-on-automatic-igt-for-jungar-tuvan-and-tonogenesis-in-tibetan-accepted-to-fieldmatters-and-lchange-at-eacl-2026",
           title: '2 workshop papers (on automatic IGT for Jungar Tuvan and tonogenesis in Tibetan)...',
           description: "",
           section: "News",},{id: "news-2-papers-on-sociophonetic-analysis-of-asr-bias-and-tokenization-in-multilingual-asr-accepted-to-lrec-2026",

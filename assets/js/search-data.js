@@ -65,7 +65,7 @@ ninja.data = [{
           section: "News",},{id: "news-2-papers-on-sociophonetic-analysis-of-asr-bias-and-tokenization-in-multilingual-asr-accepted-to-lrec-2026",
           title: '2 papers (on sociophonetic analysis of ASR bias and tokenization in multilingual ASR)...',
           description: "",
-          section: "News",},{id: "news-1-paper-on-the-emotional-impact-of-asr-bias-accepted-to-facct-2026-more-details-forthcoming",
+          section: "News",},{id: "news-1-paper-on-the-emotional-impact-of-asr-bias-accepted-to-facct-2026",
           title: '1 paper on the emotional impact of ASR bias accepted to FAccT 2026....',
           description: "",
           section: "News",},{id: "news-i-will-join-the-department-of-linguistics-at-rice-university-as-an-assistant-professor-in-fall-2026",

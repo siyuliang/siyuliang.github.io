@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-1 paper on the emotional impact of ASR bias accepted to [FAccT 2026](https://facctconference.org/2026/index.html). More details forthcoming! 
+1 paper on the emotional impact of ASR bias accepted to [FAccT 2026](https://facctconference.org/2026/index.html). 

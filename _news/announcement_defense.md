@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Defended my dissertation! 
+Defended my dissertation titled *Toward Equitable Speech Recognition: Linguistic Structure Representation, and Fairness in Automatic Speech Recognition*!

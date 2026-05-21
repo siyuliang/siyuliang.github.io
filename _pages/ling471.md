@@ -152,10 +152,10 @@ Items in the "Reading" column are to be read **before** the class meeting they a
 | 7 | May 12 | [Linear regressioin, logistic regression, Naive Bayes](/assets/pdf/ling471spr26/13_logistic_regression.pdf) | - [Logistic regression](https://web.archive.org/web/20210416233602/https://www.tibco.com/reference-center/what-is-logistic-regression)<br/>- [Naive Bayes](https://web.archive.org/web/20220310115646/https://machinelearningmastery.com/naive-bayes-classifier-scratch-python/) | [Assignment 3](https://github.com/siyuliang/ling471/blob/main/assignments/Assignment3.md) |
 | | May 14 | [Language models, nonlinearity, neural networks](/assets/pdf/ling471spr26/14_lm_and_ann.pdf) | - [Deep learning for NLP](https://medium.com/dair-ai/deep-learning-for-nlp-an-overview-of-recent-trends-d0d8f40a776d)<br/>- [Nonlinear problems](https://towardsdatascience.com/how-neural-networks-solve-the-xor-problem-59763136bdd7)<br/>- [Testing NLP models](https://slideslive.com/38929272/beyond-accuracy-behavioral-testing-of-nlp-models-with-checklist) | |
 | 8 | May 19 | [Deep learning, linguistic knowledge in NLP](/assets/pdf/ling471spr26/15_dnns_linguistics_in_nlp.pdf) | - [Ettinger et al. (2017)](https://aclanthology.org/W17-5401.pdf) | |
-|  | May 21 | Working with linguistic corpora | - [Aijmer (2021)](https://journals.sagepub.com/doi/10.1177/0075424220979143) or [Stange (2021)](https://journals.sagepub.com/doi/10.1177/0075424220979116) (also on Canvas→Files) | |
-| 9 | May 26 | Visualization, communication | - [To dissect an octopus](https://julianmichael.org/blog/2020/07/23/to-dissect-an-octopus.html)<br/>- [Keras word embedding tutorial](https://web.archive.org/web/20220327225651/https://thedatafrog.com/en/articles/word-embedding-sentiment-analysis/) (a working version of this is part of your HW5 skeleton)<br/>- [Visualization with Pandas](https://pandas.pydata.org/pandas-docs/stable/user_guide/visualization.html) | [Assignment 4](https://github.com/siyuliang/ling471/blob/main/assignments/Assignment4.md) |
-|  | May 28 | Presentations | | |
-| 10 | Jun 2 | Presentations | | |
-|  | Jun 4 | Final Exam | | Assignment 5 |
+|  | May 21 | [Working with linguistic corpora](/assets/pdf/ling471spr26/16_linguistic_corpora.pdf) | - [Aijmer (2021)](https://journals.sagepub.com/doi/10.1177/0075424220979143) or [Stange (2021)](https://journals.sagepub.com/doi/10.1177/0075424220979116) (also on Canvas→Files) | |
+| 9 | May 26 | Visualization, communication | - [To dissect an octopus](https://julianmichael.org/blog/2020/07/23/to-dissect-an-octopus.html)<br/>- [Visualization with Pandas](https://pandas.pydata.org/pandas-docs/stable/user_guide/visualization.html) | [Assignment 4](https://github.com/siyuliang/ling471/blob/main/assignments/Assignment4.md) |
+|  | May 28 | Presentations | TBA | |
+| 10 | Jun 2 | Presentations | TBA | |
+|  | Jun 4 | Final Exam | | [Assignment 5](https://github.com/siyuliang/ling471/blob/main/assignments/Assignment5.md) |
 
 <div style="margin-bottom: 4rem;"></div>

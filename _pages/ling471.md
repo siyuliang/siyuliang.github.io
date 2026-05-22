@@ -156,6 +156,6 @@ Items in the "Reading" column are to be read **before** the class meeting they a
 | 9 | May 26 | Visualization, communication | - [To dissect an octopus](https://julianmichael.org/blog/2020/07/23/to-dissect-an-octopus.html)<br/>- [Visualization with Pandas](https://pandas.pydata.org/pandas-docs/stable/user_guide/visualization.html) | [Assignment 4](https://github.com/siyuliang/ling471/blob/main/assignments/Assignment4.md) |
 |  | May 28 | Presentations | TBA | |
 | 10 | Jun 2 | Presentations | TBA | |
-|  | Jun 4 | Final Exam | | [Assignment 5](https://github.com/siyuliang/ling471/blob/main/assignments/Assignment5.md) |
+|  | Jun 4 | Final Exam |- [Final Review Guide](/assets/pdf/ling471spr26/final_review.pdf)<br/>- [Sample Final](/assets/pdf/ling471spr26/sample_final.pdf) | [Assignment 5](https://github.com/siyuliang/ling471/blob/main/assignments/Assignment5.md) |
 
 <div style="margin-bottom: 4rem;"></div>

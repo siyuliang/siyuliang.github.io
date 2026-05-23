@@ -8,10 +8,10 @@ profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
-  more_info: >
-    <p style="text-align: center;">📷 in Kiama, Australia</p>
-    <p style="text-align: center;">August 2025</p>
-    <p style="text-align: center;">Photo credit: <a href="https://www.instagram.com/zhenfa_mo/" target="_blank" rel="noopener noreferrer" aria-label="Instagram: Zhenfa">@Zhenfa</a></p>
+  # more_info: >
+  #   <p style="text-align: center;">📷 in Kiama, Australia</p>
+  #   <p style="text-align: center;">August 2025</p>
+  #   <p style="text-align: center;">Photo credit: <a href="https://www.instagram.com/zhenfa_mo/" target="_blank" rel="noopener noreferrer" aria-label="Instagram: Zhenfa">@Zhenfa</a></p>
 
 
 selected_papers: false # includes a list of papers marked as "selected={true}"

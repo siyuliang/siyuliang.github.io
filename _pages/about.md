@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: 💼 3940 Benton Ln NE, Room 407, Seattle, WA, USA
+subtitle: 💼 Department of Linguistics, Rice University, Houston, TX, USA
 
 profile:
   align: right
@@ -28,9 +28,9 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a PhD candidate in Computational Linguistics at the [University of Washington](https://linguistics.washington.edu/), where I was advised by Drs. **[Gina-Anne Levow](https://faculty.washington.edu/levow/)** and **[Richard Wright](https://linguistics.washington.edu/people/richard-wright)**. In Fall 2026, I will join the [Department of Linguistics](https://linguistics.rice.edu/) at Rice University as an Assistant Professor. My research develops computational methods for multilingual and under-resourced speech grounded in linguistic theory and fairness.
+I am an incoming Assistant Professor in the [Department of Linguistics](https://linguistics.rice.edu/) at Rice University starting July 2026. I received my Ph.D. in Computational Linguistics from the [University of Washington](https://linguistics.washington.edu/), where I was advised by Drs. **[Gina-Anne Levow](https://faculty.washington.edu/levow/)** and **[Richard Wright](https://linguistics.washington.edu/people/richard-wright)**. My research develops computational methods for multilingual and under-resourced speech grounded in linguistic theory and fairness.
 
-I study how large speech language models represent and generalize across phonetic and structural variation, and design methods to evaluate and improve their performance across resource levels and dialectal variation. As a linguist, I am particularly interested in studying speech variation through both lab phonology and corpus-based approaches. I am also interested in how computational approaches can be applied to linguistic analysis and documentation, and I have worked on Iranian, Tibeto-Burman, Turkic, Nilotic, and areally Southeast Asian languages. I actively conduct fieldwork and collaborate with field linguists to build models and resources in real-world documentation settings. 
+I study how speech models represent and generalize across phonetic and structural variation, and design methods to evaluate and improve their performance across resource levels and dialectal variation. As a linguist, I am particularly interested in studying speech variation through both lab phonology and corpus-based approaches. I am also interested in how computational approaches can be applied to linguistic analysis and documentation, and I have worked on Iranian, Tibeto-Burman, Turkic, Nilotic, and areally Southeast Asian languages. I actively conduct fieldwork and collaborate with field linguists to build models and resources in real-world documentation settings. 
 
 <style>
 .lightbox { display: none; position: fixed; z-index: 999; padding-top: 50px; left: 0; top: 0; width: 100%; height: 100%; overflow: auto; background-color: rgba(0,0,0,0.9); cursor: pointer; }
@@ -55,7 +55,7 @@ function openLightbox(imgSrc, caption) {
 
 When I'm not working, you can find me on <a href="#" onclick="openLightbox('assets/img/flight-ICN-SEA.jpg', 'Sunrise on flight KE 19 from ICN to SEA, December 2021'); return false;">red-eye flights</a> ✈️, at <a href="#" onclick="openLightbox('assets/img/concert_serrini.jpg', 'Serrini, one of my favorite Hong Kong singers, in Vancouver, November 2024'); return false;">concerts</a> 🎶, in <a href="#" onclick="openLightbox('assets/img/hiking_ethiopia.jpg', 'Hiking in Tigray, Ethiopia, March 2024'); return false;">the mountains</a> 🏞️, and occasionally <a href="#" onclick="openLightbox('assets/img/horseriding_chile.jpg', 'Horseback trekking in Pucón, Chile'); return false;">on horseback</a> 🐎, <a href="#" onclick="openLightbox('assets/img/climbing_krabi.jpg', 'Climbing in Krabi, Thailand, August 2025'); return false;">up the wall</a> 🧗, or <a href="#" onclick="openLightbox('assets/img/diving_bali.jpg', 'Diving the USS Liberty wreck in Tulamben, Indonesia, September 2025'); return false;">under the sea</a> 🤿. 
 
-You can reach me at liangsy [@] uw [dot] edu. 
+You can reach me at siyu.liang [@] rice [dot] edu. 
 
 <!-- Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
 

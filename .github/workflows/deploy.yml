@@ -1,5 +1,9 @@
 name: Deploy site
 
+concurrency:
+  group: pages-${{ github.ref }}
+  cancel-in-progress: true
+
 on:
   push:
     branches:
@@ -103,3 +107,4 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           folder: _site
+          single-commit: true

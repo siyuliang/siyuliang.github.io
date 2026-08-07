@@ -11,8 +11,6 @@ hide_footer: true
 
 # LING 430: Computational Linguistics
 
-**Fall 2026: Sample syllabus**
-
 [Information](#information) · [Coursework](#coursework) · [Policies](#policies) · [Schedule](#schedule)
 
 ## Information {#information}
@@ -177,8 +175,8 @@ The schedule is a working plan and may change in response to class progress. Rea
 |---:|---|---|---|---|
 | 1 | Aug 25 | Introduction: what is computational linguistics, and why is language difficult? | | |
 |  | Aug 27 | Course setup and learning computational methods in the age of LLMs | [Ma, Koedinger, & Wu (2025), “Not Everyone Wins with LLMs”](https://arxiv.org/abs/2509.21890) | HW 1 released; course survey |
-| 2 | Sep 1 | Systems, the command line, Python, and NLTK basics | [*Think Python*, Ch. 1](https://greenteapress.com/thinkpython2/html/thinkpython2002.html)<br/>[NLTK Book, Ch. 1](https://www.nltk.org/book/ch01.html) | |
-|  | Sep 3 | Variables, control flow, functions, and command-line interfaces | [*Think Python*, Ch. 2](https://greenteapress.com/thinkpython2/html/thinkpython2003.html)<br/>[*Think Python*, Ch. 5, §§5.2-5.7](https://greenteapress.com/thinkpython2/html/thinkpython2006.html) | |
+| 2 | Sep 1 | Systems, the command line, Python, and NLTK basics | [Think Python, Ch. 1](https://greenteapress.com/thinkpython2/html/thinkpython2002.html)<br/>[NLTK Book, Ch. 1](https://www.nltk.org/book/ch01.html) | |
+|  | Sep 3 | Variables, control flow, functions, and command-line interfaces | [Think Python, Ch. 2](https://greenteapress.com/thinkpython2/html/thinkpython2003.html)<br/>[Think Python, Ch. 5, §§5.2-5.7](https://greenteapress.com/thinkpython2/html/thinkpython2006.html) | |
 | 3 | Sep 8 | Strings, lists, dictionaries, files, and input/output | | |
 |  | Sep 10 | Debugging, VSCode, Git, and reproducible workflows | | HW 1 due; HW 2 released |
 | 4 | Sep 15 | Tokenization and regular expressions | [Jurafsky & Martin, Ch. 2: Words and Tokens](https://web.stanford.edu/~jurafsky/slp3/2.pdf) | |
@@ -206,3 +204,5 @@ The schedule is a working plan and may change in response to class progress. Rea
 | 15 | Dec 1 | Student paper presentations | | Slides due for presenters |
 |  | Dec 3 | Student paper presentations and course synthesis | | Slides due for presenters |
 | Final exam | Dec 15 | **Take-home final exam due** | | Take-home final exam |
+
+<div style="margin-bottom: 4rem;"></div>

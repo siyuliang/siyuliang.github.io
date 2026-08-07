@@ -67,7 +67,7 @@ Additional articles, documentation, and corpus materials will be posted on Canva
 
 ### Reading expectations
 
-Some readings, especially chapters from Jurafsky and Martin, are technically dense and are also assigned in upper-level undergraduate and graduate NLP courses. For most readings in this introductory course, close reading of every equation, algorithm, or implementation detail is **not** expected. Read to familiarize yourself with the central problem, terminology, model intuition, and linguistic implications. Sections that require closer attention will be identified explicitly.
+Some readings, especially chapters from Jurafsky & Martin, are technically dense and are also assigned in upper-level undergraduate and graduate NLP courses. For most readings in this introductory course, close reading of every equation, algorithm, or implementation detail is **not** expected. Read to familiarize yourself with the central problem, terminology, model intuition, and linguistic implications. Sections that require closer attention will be identified explicitly.
 
 ---
 
@@ -177,29 +177,29 @@ The schedule is a working plan and may change in response to class progress. Rea
 |  | Aug 27 | Course setup and learning computational methods in the age of LLMs | [Ma, Koedinger, & Wu (2025), “Not Everyone Wins with LLMs”](https://arxiv.org/abs/2509.21890) | HW 1 released; course survey |
 | 2 | Sep 1 | Systems, the command line, Python, and NLTK basics | [Think Python, Ch. 1](https://greenteapress.com/thinkpython2/html/thinkpython2002.html)<br/>[NLTK Book, Ch. 1](https://www.nltk.org/book/ch01.html) | |
 |  | Sep 3 | Variables, control flow, functions, and command-line interfaces | [Think Python, Ch. 2](https://greenteapress.com/thinkpython2/html/thinkpython2003.html)<br/>[Think Python, Ch. 5, §§5.2-5.7](https://greenteapress.com/thinkpython2/html/thinkpython2006.html) | |
-| 3 | Sep 8 | Strings, lists, dictionaries, files, and input/output | | |
-|  | Sep 10 | Debugging, VSCode, Git, and reproducible workflows | | HW 1 due; HW 2 released |
+| 3 | Sep 8 | Strings, lists, dictionaries, files, and input/output | [*Think Python*, Ch. 8: Strings](https://greenteapress.com/thinkpython2/html/thinkpython2009.html)<br/>[*Think Python*, Ch. 10: Lists](https://greenteapress.com/thinkpython2/html/thinkpython2011.html)<br/>[*Think Python*, Ch. 11: Dictionaries](https://greenteapress.com/thinkpython2/html/thinkpython2012.html)<br/>[*Think Python*, Ch. 14: Files](https://greenteapress.com/thinkpython2/html/thinkpython2015.html) (selected sections) | |
+|  | Sep 10 | Debugging, VSCode, Git, and reproducible workflows | [VS Code: Getting Started with Python](https://code.visualstudio.com/docs/python/python-tutorial) | HW 1 due; HW 2 released |
 | 4 | Sep 15 | Tokenization and regular expressions | [Jurafsky & Martin, Ch. 2: Words and Tokens](https://web.stanford.edu/~jurafsky/slp3/2.pdf) | |
 |  | Sep 17 | Unicode, text normalization, and rule-based language processing | [Python Unicode HOWTO](https://docs.python.org/3/howto/unicode.html) | |
 | 5 | Sep 22 | Computational morphology and finite-state methods | [NLTK Book, Ch. 3, §3.6: Normalizing Text](https://www.nltk.org/book/ch03.html#sec-normalizing-text) | |
 |  | Sep 24 | Evaluation: accuracy, precision, recall, and error analysis | [scikit-learn: Precision, Recall, and F-measures](https://scikit-learn.org/stable/modules/model_evaluation.html#precision-recall-f-measure-metrics) | HW 2 due; HW 3 released |
 | 6 | Sep 29 | Probability, maximum likelihood estimation, and Bayes' theorem | [Downey, *Think Bayes*, Ch. 1](https://allendowney.github.io/ThinkBayes2/chap01.html) | |
 |  | Oct 1 | N-gram language models | [Jurafsky & Martin, Ch. 3: N-gram Language Models](https://web.stanford.edu/~jurafsky/slp3/3.pdf) | |
-| 7 | Oct 6 | Language generation and an introduction to neural language models | | |
-|  | Oct 8 | DataFrames, Naive Bayes, and document classification | | HW 3 due; HW 4 released |
+| 7 | Oct 6 | Language generation and an introduction to neural language models | [Jurafsky & Martin, Ch. 7, §§7.2 and 7.4: Conditional Generation and Sampling](https://web.stanford.edu/~jurafsky/slp3/7.pdf) | |
+|  | Oct 8 | DataFrames, Naive Bayes, and document classification | [pandas: What Kind of Data Does pandas Handle?](https://pandas.pydata.org/docs/getting_started/intro_tutorials/01_table_oriented.html)<br/>[Jurafsky & Martin, Appendix B, §§B.1-B.2: Naive Bayes Classification](https://web.stanford.edu/~jurafsky/slp3/B.pdf) | HW 3 due; HW 4 released |
 | 8 | Oct 13 | **No class: Midterm Recess** | | |
 |  | Oct 15 | Linear and logistic regression for language data | [Jurafsky & Martin, Ch. 4: Logistic Regression and Text Classification](https://web.stanford.edu/~jurafsky/slp3/4.pdf) | |
 | 9 | Oct 20 | Hidden Markov Models and the Viterbi algorithm | [Jurafsky & Martin, Appendix A: Hidden Markov Models](https://web.stanford.edu/~jurafsky/slp3/A.pdf) | |
 |  | Oct 22 | Part-of-speech tagging and sequence-labeling error analysis | [Jurafsky & Martin, Ch. 17: Sequence Labeling](https://web.stanford.edu/~jurafsky/slp3/17.pdf) | HW 4 due; HW 5 released |
-| 10 | Oct 27 | Named entity recognition and linguistic annotation | [Jurafsky & Martin, Ch. 17: Sequence Labeling](https://web.stanford.edu/~jurafsky/slp3/17.pdf) | |
+| 10 | Oct 27 | Named entity recognition and linguistic annotation | [NLTK Book, Ch. 7, §5: Named Entity Recognition](https://www.nltk.org/book/ch07.html) | |
 |  | Oct 29 | Context-free grammars and syntactic parsing | [Jurafsky & Martin, Ch. 18: Context-Free Grammars and Constituency Parsing](https://web.stanford.edu/~jurafsky/slp3/18.pdf) | Presentation paper choice |
-| 11 | Nov 3 | Vector-space models, TF-IDF, and information retrieval | | |
-|  | Nov 5 | Topic models, LDA, and discovering patterns in document collections | | HW 5 due; HW 6 released |
+| 11 | Nov 3 | Vector-space models, TF-IDF, and information retrieval | [Jurafsky & Martin, Ch. 11, §§11.1-11.2: Information Retrieval](https://web.stanford.edu/~jurafsky/slp3/11.pdf) | |
+|  | Nov 5 | Topic models, LDA, and discovering patterns in document collections | [scikit-learn: Topic Extraction with NMF and LDA](https://scikit-learn.org/stable/auto_examples/applications/plot_topics_extraction_with_nmf_lda.html) | HW 5 due; HW 6 released |
 | 12 | Nov 10 | Neural networks, embeddings, and model training | [Jurafsky & Martin, Ch. 5: Embeddings](https://web.stanford.edu/~jurafsky/slp3/5.pdf)<br/>[Jurafsky & Martin, Ch. 6: Neural Networks](https://web.stanford.edu/~jurafsky/slp3/6.pdf) | |
-|  | Nov 12 | What linguistic knowledge do language models learn? | | |
-| 13 | Nov 17 | Working with linguistic corpora: design, query, annotation, metadata, variation, and representativeness | | |
+|  | Nov 12 | What linguistic knowledge do language and speech models learn? | **Choose one:**<br/>[Choi et al. (2026), “\[b\] = \[d\] - \[t\] + \[p\]: Self-supervised Speech Models Discover Phonological Vector Arithmetic”](https://aclanthology.org/2026.findings-acl.537/)<br/>[Yang et al. (2025), “LingGym: How Far Are LLMs from Thinking Like Field Linguists?”](https://aclanthology.org/2025.emnlp-main.69/)<br/>[Warstadt et al. (2020), “BLiMP: The Benchmark of Linguistic Minimal Pairs for English”](https://aclanthology.org/2020.tacl-1.25/)<br/>[Ma & Miyao (2026), “The Imperfective Paradox in Large Language Models”](https://aclanthology.org/2026.acl-long.689/) | |
+| 13 | Nov 17 | Working with linguistic corpora: design, query, annotation, metadata, variation, and representativeness | [NLTK Book, Ch. 11, §§1 and 3.5: Managing Linguistic Data](https://www.nltk.org/book/ch11.html) | |
 |  | Nov 19 | Automatic speech recognition: speech representations, variation, and recognition errors | [Jurafsky & Martin, Ch. 14: Phonetics and Speech Feature Extraction](https://web.stanford.edu/~jurafsky/slp3/14.pdf)<br/>[Jurafsky & Martin, Ch. 15: Automatic Speech Recognition](https://web.stanford.edu/~jurafsky/slp3/15.pdf) | HW 6 due |
-| 14 | Nov 24 | Behavioral evaluation, ethics, visualization, and research communication | | |
+| 14 | Nov 24 | Language variation, bias, and social impacts of NLP | **Choose one:**<br/>[Sap et al. (2019), “The Risk of Racial Bias in Hate Speech Detection”](https://aclanthology.org/P19-1163/)<br/>[Wassink et al. (2022), “Uneven Success: Automatic Speech Recognition and Ethnicity-Related Dialects”](https://www.sciencedirect.com/science/article/abs/pii/S0167639322000486)<br/>[Cheng et al. (2026), “Sycophantic AI Decreases Prosocial Intentions and Promotes Dependence”](https://arxiv.org/abs/2510.01395) | |
 |  | Nov 26 | **No class: Thanksgiving Recess** | | |
 | 15 | Dec 1 | Student paper presentations | | Slides due for presenters |
 |  | Dec 3 | Student paper presentations and course synthesis | | Slides due for presenters |

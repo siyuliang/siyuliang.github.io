@@ -19,31 +19,29 @@ hide_footer: true
 
 Computational linguistics combines insights from linguistics and computer science to study language with computational tools and to build language technologies. This course offers a hands-on, beginner-friendly introduction to the field. We will learn Python while working with real language data and will connect each computational method to the linguistic assumptions it makes.
 
-The course begins with programming, development tools, representations of language, and text processing. We then move through symbolic approaches such as regular expressions and computational morphology; statistical approaches such as n-gram language models, Naive Bayes, regression, and sequence labeling; and contemporary approaches using neural networks, embeddings, and large language models. Later in the semester, we bring these methods together through linguistic corpus analysis and automatic speech recognition. Throughout the course, we will examine evaluation, error analysis, data documentation, bias, and the social consequences of language technology.
+The course begins with programming, development tools, representations of language, and text processing. We then move through symbolic approaches such as regular expressions and computational morphology; statistical approaches such as n-gram language models, Naive Bayes, regression, and sequence labeling; and contemporary approaches using neural networks, embeddings, and large language models. We then bring these methods together in topics such as linguistic corpus analysis and automatic speech recognition. Throughout the course, we will examine evaluation, error analysis, data documentation, bias, and the social consequences of language technology. 
 
-No previous programming experience is assumed. Students should, however, expect to practice consistently: programming skills build cumulatively, and later work depends on the foundations developed early in the semester.
+No previous programming experience is assumed. However, students should be prepared to invest the necessary time and effort to become proficient over the course of the semester. Students who take this course will gain a thorough understanding of the fundamental methods used in computational linguistics, along with an ability to assess the strengths and weaknesses of natural language technologies based on these methods. 
 
 ### Learning outcomes
 
 By the end of the course, you will be able to:
 
 - Write, run, test, and debug programs in Python.
-- Use a command-line interface, a code editor, and Git for reproducible work.
 - Process text using strings, regular expressions, tokenization, and Unicode-aware methods.
 - Explain and implement introductory computational models of morphology, language modeling, classification, sequence labeling, and parsing, and describe the main components of an automatic speech-recognition system.
 - Work with linguistic corpora, annotations, metadata, and data documentation.
 - Evaluate NLP systems using appropriate metrics and systematic error analysis.
 - Explain how linguistic theory and data choices affect computational models.
 - Critically assess the capabilities, limitations, biases, and social implications of current language technologies, including large language models.
-- Communicate computational linguistic research clearly to technical and nontechnical audiences.
 
 ### Prerequisites
 
-ANTH 200/LING 200 or instructor approval. No prior coursework in programming or computer science is required.
+ANTH 200/LING 200 or instructor approval. No prior coursework in programming or computer science is required.  
 
 ### Meeting times and format
 
-This course is taught **in person**. Class meetings will combine short lectures, discussion, live coding, and individual or group activities. Please bring a laptop to every class.
+This course is taught **in person**. Class meetings will include lectures, discussion, live coding, and activities. Please bring a laptop to every class.
 
 | Days | Time | Location |
 |---|---|---|
@@ -53,7 +51,7 @@ This course is taught **in person**. Class meetings will combine short lectures,
 
 | Name | Email | Office | Office hours |
 |---|---|---|---|
-| [Siyu Liang](https://siyuliang.github.io/) | siyu.liang@rice.edu | Herring 205 | TBD |
+| [Siyu Liang](https://siyuliang.github.io/) | siyu.liang@rice.edu | Herring 205 | Tuesday 12:30-2:30 PM or by appointment |
 
 ### Texts and readings
 
@@ -65,9 +63,11 @@ All required readings will be available at no cost through open-access sources o
 
 Additional articles, documentation, and corpus materials will be posted on Canvas. Readings listed in the schedule are tentative and may be adjusted as the semester develops.
 
+This course was influenced by several excellent courses during its development, with gratitude: LING 471 (UW, Olga Zamaraeva and Matt Kelley), LING 362 (Georgetown, Amir Zeldes), LING 1330 (Pittsburgh, Janet Liu), and CS 124 (Stanford, Dan Jurafsky). 
+
 ### Reading expectations
 
-Some readings, especially chapters from Jurafsky & Martin, are technically dense and are also assigned in upper-level undergraduate and graduate NLP courses. For most readings in this introductory course, close reading of every equation, algorithm, or implementation detail is **not** expected. Read to familiarize yourself with the central problem, terminology, model intuition, and linguistic implications. Sections that require closer attention will be identified explicitly.
+Some readings, especially chapters from Jurafsky & Martin, are technically dense and are also assigned in upper-level undergraduate and graduate NLP courses. For those, close reading of every equation, algorithm, or implementation detail is **not** expected unless otherwise noted. Read to familiarize yourself with the central problem, terminology, model intuition, and linguistic implications. For readings on programming knowledge, you should spend enough time to be able to replicate the code, which could vary depending on your background. 
 
 ---
 
@@ -75,32 +75,32 @@ Some readings, especially chapters from Jurafsky & Martin, are technically dense
 
 ### Homework assignments
 
-There will be six scaffolded homework assignments. Most will provide starter code that you will inspect, modify, and extend. In addition to working code, submissions will include short explanations or error analyses: you should understand what your program does, why it works, and where it fails. All homework deadlines fall on Thursdays at 11:59 PM.
+There will be six homework assignments. Most will provide starter code that you will inspect, modify, and extend. In addition to working code, submissions will include short explanations or error analyses: you should understand what your program does, why it works, and where it fails. All homework deadlines 11:59 PM on the days they are due.
 
-- **HW 1: Setup, NLTK, and why NLP is hard.** Configure Python, VSCode, Git, and NLTK; practice the command line; explore a small collection of texts; and analyze linguistic ambiguity.
+<!-- - **HW 1: Setup, NLTK, and why NLP is hard.** Configure Python, VSCode, Git, and NLTK; practice the command line; explore a small collection of texts; analyze linguistic ambiguity; and conduct a short no-code field study of a deployed language technology (a spellchecker or autocorrect system).
 - **HW 2: Palindrome recognizer.** Build a command-line program using functions, loops, and string operations; document how normalization choices affect different scripts and languages.
-- **HW 3: Computational morphological analyzer.** Implement or extend an analysis of word structure using simple finite-state techniques, including examples from a language other than English where feasible.
-- **HW 4: N-gram story generator.** Estimate an n-gram language model, generate text, compare model orders, and analyze characteristic errors.
+- **HW 3: Computational morphological analyzer.** Implement or extend an analysis of word structure using simple finite-state techniques in plain Python (no external toolkit installation required), including examples from a language other than English where feasible.
+- **HW 4: N-gram story generator.** Estimate an n-gram language model, generate text, compare model orders, experiment with sampling temperature, and analyze characteristic errors.
 - **HW 5: Viterbi-HMM part-of-speech tagger.** Complete a tagger from starter code and connect tagging errors to ambiguity and annotation choices.
-- **HW 6: Corpus modeling and evaluation.** Build a corpus-based model using TF-IDF, topic modeling, or another approved method; compare it with a baseline; conduct quantitative and linguistic error analysis; and write a short model card.
+- **HW 6: Corpus modeling and evaluation.** Build a corpus-based model using TF-IDF, topic modeling, or another approved method; compare it with a baseline; conduct quantitative and linguistic error analysis; and write a short model card. -->
 
-Homework is graded on completion rather than correctness. You will receive full credit for a genuine attempt that follows the instructions and explains your work. A clear explanation of an imperfect solution is more valuable than unexplained code that happens to run. Your lowest homework grade will be dropped, so the best five of six homework grades will count toward the final grade. Because the assignments build on one another, submit each one and review feedback promptly even if you expect it to be your dropped grade. Detailed specifications and submission instructions will be provided on Canvas.
+Homework is graded on completion rather than correctness. You will receive a full grade for a genuine attempt that follows the instructions and explains your work. A clear explanation of an imperfect solution is more valuable than unexplained code that happens to run. Your lowest homework grade will be dropped, so the best five of six homework grades will count toward the final grade. Because the assignments build on one another, try to submit each one on time even if you expect it to be your dropped grade. 
 
 ### Paper presentation
 
-Students will give a 10-minute presentation on a peer-reviewed computational linguistics paper, either individually or in a group of 2-3. The presentation should explain the research question, data, method, and findings; connect the work to linguistic ideas from the course; and consider possible social consequences or limitations. Clarity matters more than technical density.
+Students will give a 10-minute presentation on a peer-reviewed computational linguistics paper, either individually or in a pair. The presentation should explain the research question, data, method, and findings; connect the work to linguistic ideas from the course; and consider possible social consequences or limitations. 
 
 Presentations will take place during the **last two class meetings, December 1 and December 3**. Paper choices are due October 29, and slides are due on the team's presentation day.
 
 ### Take-home final exam
 
-The final is a **take-home exam due December 15**. It will focus on conceptual understanding, interpretation and correction of short code samples, pseudocode, evaluation, and the application of computational methods to language data. It will not require live coding or memorization of long programs. The exact submission time and permitted resources will be announced on Canvas.
+The final is a **take-home exam due December 15**. It will focus on conceptual understanding, interpretation and correction of short code samples, pseudocode, evaluation, and the application of computational methods to language data. It will not require live coding or memorization of long programs. Instructions for submission will be posted on Canvas.
 
 ### Grading
 
 | Component | Weight |
 |---|---:|
-| Homework portfolio (best 5 of 6 assignments) | 75% |
+| Homework (best 5 of 6 assignments) | 75% |
 | Paper presentation | 15% |
 | Take-home final exam | 10% |
 | Participation extra credit | Up to 2% |
@@ -109,7 +109,7 @@ Letter grades will be assigned using the following scale. Any curve or adjustmen
 
 | Grade | Percentage | Grade | Percentage | Grade | Percentage |
 |---|---:|---|---:|---|---:|
-| A+ | 98-100 | A | 93-97.99 | A- | 90-92.99 |
+| A+ | 97-100 | A | 90-96.99 | | |
 | B+ | 87-89.99 | B | 83-86.99 | B- | 80-82.99 |
 | C+ | 77-79.99 | C | 73-76.99 | C- | 70-72.99 |
 | D+ | 67-69.99 | D | 63-66.99 | D- | 60-62.99 |
@@ -135,17 +135,17 @@ If unexpected circumstances make it difficult to complete work on time, email th
 
 ### Use of large language models
 
-Large language models can be useful, but they are least reliable for learners who do not yet have the technical foundation to recognize subtle errors. For that reason, you are strongly discouraged from using an LLM to generate homework code. Struggling productively with a problem, testing possible solutions, and using the debugger are central parts of learning in this course.
-
-[Ma, Koedinger, and Wu (2025)](https://arxiv.org/abs/2509.21890) found that technical experience, rather than prior familiarity with AI tools or communication skill, was the significant predictor of success when students used an LLM for programmatic data-analysis homework. We will discuss this study during Week 1 as we establish expectations for learning with and about AI.
+Large language models can be useful, but they can be detrimental to learning for students who do not yet have the technical foundation to understand the output. For that reason, you are strongly discouraged from using an LLM to generate homework code. Struggling productively with a problem, testing possible solutions, and debugging are central parts of learning in this course.
 
 Unless a homework explicitly permits it, an AI assistant may be used only as a tutor: for example, to explain a concept or help interpret an error message. It may not write substantial portions of the code or analysis you submit. Any permitted use must be disclosed, and you must verify and be able to explain the resulting work. Submitting generated work that you cannot explain does not count as a genuine attempt.
+
+To make these expectations concrete, this course uses the **AI Usage Scale** (Parsons, McCabe, & Han 2024; posted on Canvas) as the shared vocabulary for describing AI assistance. For the written portions of your work: Levels 0–2 (grammar and sentence-level polish) are always acceptable; Levels 3–5 (brainstorming, feedback on drafts, paraphrasing for your own understanding) are acceptable with disclosure; Levels 6–8 (structural assistance and substantial generation) are not permitted unless an assignment explicitly says otherwise. For code, apply the same scale: having AI explain a concept or an error message sits in the acceptable range, while having it produce the functions you submit does not. When you disclose AI use, name the level.
 
 ### Communication
 
 - Use the relevant Canvas discussion board for technical and logistical questions so that everyone can benefit from the answer.
 - Use email for grades, accommodations, or other private matters.
-- On weekdays, the instructor will normally respond to email within 24 hours; responses may take longer on weekends or university holidays. Use office hours or request an appointment for questions that require an extended discussion.
+- On weekdays, the instructor will normally respond to email within 24-48 hours; responses may take longer on weekends or university holidays. Use office hours or request an appointment for questions that require an extended discussion.
 
 ### Academic integrity
 
@@ -169,40 +169,40 @@ Please notify the instructor as early as possible if a religious observance conf
 
 ### Class schedule
 
-The schedule is a working plan and may change in response to class progress. Readings are to be completed **before** the associated meeting. Unless otherwise stated, assignments are due at 11:59 PM on the listed date. The final exam has separate instructions on Canvas.
+The schedule is a working plan and may change in response to class progress. Readings are to be completed **before** the associated meeting. Unless otherwise stated, assignments are due at 11:59 PM on the listed date. 
 
 | Week | Date | Topic | Reading | Due |
 |---:|---|---|---|---|
-| 1 | Aug 25 | Introduction: what is computational linguistics, and why is language difficult? | | |
-|  | Aug 27 | Course setup and learning computational methods in the age of LLMs | [Ma, Koedinger, & Wu (2025), “Not Everyone Wins with LLMs”](https://arxiv.org/abs/2509.21890) | HW 1 released; course survey |
-| 2 | Sep 1 | Systems, the command line, Python, and NLTK basics | [Think Python, Ch. 1](https://greenteapress.com/thinkpython2/html/thinkpython2002.html)<br/>[NLTK Book, Ch. 1](https://www.nltk.org/book/ch01.html) | |
-|  | Sep 3 | Variables, control flow, functions, and command-line interfaces | [Think Python, Ch. 2](https://greenteapress.com/thinkpython2/html/thinkpython2003.html)<br/>[Think Python, Ch. 5, §§5.2-5.7](https://greenteapress.com/thinkpython2/html/thinkpython2006.html) | |
-| 3 | Sep 8 | Strings, lists, dictionaries, files, and input/output | [*Think Python*, Ch. 8: Strings](https://greenteapress.com/thinkpython2/html/thinkpython2009.html)<br/>[*Think Python*, Ch. 10: Lists](https://greenteapress.com/thinkpython2/html/thinkpython2011.html)<br/>[*Think Python*, Ch. 11: Dictionaries](https://greenteapress.com/thinkpython2/html/thinkpython2012.html)<br/>[*Think Python*, Ch. 14: Files](https://greenteapress.com/thinkpython2/html/thinkpython2015.html) (selected sections) | |
-|  | Sep 10 | Debugging, VSCode, Git, and reproducible workflows | [VS Code: Getting Started with Python](https://code.visualstudio.com/docs/python/python-tutorial) | HW 1 due; HW 2 released |
+| 1 | Aug 25 | What is computational linguistics? | [Cotterell (2017), “Is ACL Interdisciplinary?”](https://medium.com/@ryancotterell/what-interdisciplinarity-in-acl-means-to-me-f070121bfa85)<br/>Optional: [Church & Liberman (2021), “The Future of Computational Linguistics: On Beyond Alchemy”](https://www.frontiersin.org/articles/10.3389/frai.2021.625341/full) | |
+|  | Aug 27 | Course setup; learning to code in the age of AI | [Ma, Koedinger, & Wu (2025), “Not Everyone Wins with LLMs”](https://arxiv.org/abs/2509.21890) | HW 1 released; course survey |
+| 2 | Sep 1 | The command line and first Python | [Think Python, Ch. 1](https://greenteapress.com/thinkpython2/html/thinkpython2002.html)<br/>[NLTK Book, Ch. 1](https://www.nltk.org/book/ch01.html) | |
+|  | Sep 3 | Python building blocks: control flow and functions | [Think Python, Ch. 2](https://greenteapress.com/thinkpython2/html/thinkpython2003.html)<br/>[Think Python, Ch. 5, §§5.2-5.7](https://greenteapress.com/thinkpython2/html/thinkpython2006.html) | |
+| 3 | Sep 8 | Working with text: strings, dictionaries, and files | [*Think Python*, Ch. 8: Strings](https://greenteapress.com/thinkpython2/html/thinkpython2009.html)<br/>[*Think Python*, Ch. 10: Lists](https://greenteapress.com/thinkpython2/html/thinkpython2011.html)<br/>[*Think Python*, Ch. 11: Dictionaries](https://greenteapress.com/thinkpython2/html/thinkpython2012.html)<br/>[*Think Python*, Ch. 14: Files](https://greenteapress.com/thinkpython2/html/thinkpython2015.html) (selected sections) | |
+|  | Sep 10 | Debugging and reproducible workflows | [VS Code: Getting Started with Python](https://code.visualstudio.com/docs/python/python-tutorial) | HW 1 due; HW 2 released |
 | 4 | Sep 15 | Tokenization and regular expressions | [Jurafsky & Martin, Ch. 2: Words and Tokens](https://web.stanford.edu/~jurafsky/slp3/2.pdf) | |
-|  | Sep 17 | Unicode, text normalization, and rule-based language processing | [Python Unicode HOWTO](https://docs.python.org/3/howto/unicode.html) | |
-| 5 | Sep 22 | Computational morphology and finite-state methods | [NLTK Book, Ch. 3, §3.6: Normalizing Text](https://www.nltk.org/book/ch03.html#sec-normalizing-text) | |
-|  | Sep 24 | Evaluation: accuracy, precision, recall, and error analysis | [scikit-learn: Precision, Recall, and F-measures](https://scikit-learn.org/stable/modules/model_evaluation.html#precision-recall-f-measure-metrics) | HW 2 due; HW 3 released |
-| 6 | Sep 29 | Probability, maximum likelihood estimation, and Bayes' theorem | [Downey, *Think Bayes*, Ch. 1](https://allendowney.github.io/ThinkBayes2/chap01.html) | |
+|  | Sep 17 | Unicode and subword tokenization | [Python Unicode HOWTO](https://docs.python.org/3/howto/unicode.html)<br/>[Jurafsky & Martin, Ch. 2, §2.5: Byte-Pair Encoding](https://web.stanford.edu/~jurafsky/slp3/2.pdf) | |
+| 5 | Sep 22 | Computational morphology | [NLTK Book, Ch. 3, §3.6: Normalizing Text](https://www.nltk.org/book/ch03.html#sec-normalizing-text) | |
+|  | Sep 24 | Evaluation and edit distance | [scikit-learn: Precision, Recall, and F-measures](https://scikit-learn.org/stable/modules/model_evaluation.html#precision-recall-f-measure-metrics)<br/>[Jurafsky & Martin, Ch. 2, §2.9: Minimum Edit Distance](https://web.stanford.edu/~jurafsky/slp3/2.pdf) | HW 2 due; HW 3 released |
+| 6 | Sep 29 | Probability for language | [Downey, *Think Bayes*, Ch. 1](https://allendowney.github.io/ThinkBayes2/chap01.html) | |
 |  | Oct 1 | N-gram language models | [Jurafsky & Martin, Ch. 3: N-gram Language Models](https://web.stanford.edu/~jurafsky/slp3/3.pdf) | |
-| 7 | Oct 6 | Language generation and an introduction to neural language models | [Jurafsky & Martin, Ch. 7, §§7.2 and 7.4: Conditional Generation and Sampling](https://web.stanford.edu/~jurafsky/slp3/7.pdf) | |
-|  | Oct 8 | DataFrames, Naive Bayes, and document classification | [pandas: What Kind of Data Does pandas Handle?](https://pandas.pydata.org/docs/getting_started/intro_tutorials/01_table_oriented.html)<br/>[Jurafsky & Martin, Appendix B, §§B.1-B.2: Naive Bayes Classification](https://web.stanford.edu/~jurafsky/slp3/B.pdf) | HW 3 due; HW 4 released |
+| 7 | Oct 6 | Generation, perplexity, and sampling | [Jurafsky & Martin, Ch. 7, §§7.2 and 7.4: Conditional Generation and Sampling](https://web.stanford.edu/~jurafsky/slp3/7.pdf) | |
+|  | Oct 8 | Text classification with Naive Bayes | [pandas: What Kind of Data Does pandas Handle?](https://pandas.pydata.org/docs/getting_started/intro_tutorials/01_table_oriented.html)<br/>[Jurafsky & Martin, Appendix B, §§B.1-B.2: Naive Bayes Classification](https://web.stanford.edu/~jurafsky/slp3/B.pdf) | HW 3 due; HW 4 released |
 | 8 | Oct 13 | **No class: Midterm Recess** | | |
-|  | Oct 15 | Linear and logistic regression for language data | [Jurafsky & Martin, Ch. 4: Logistic Regression and Text Classification](https://web.stanford.edu/~jurafsky/slp3/4.pdf) | |
-| 9 | Oct 20 | Hidden Markov Models and the Viterbi algorithm | [Jurafsky & Martin, Appendix A: Hidden Markov Models](https://web.stanford.edu/~jurafsky/slp3/A.pdf) | |
-|  | Oct 22 | Part-of-speech tagging and sequence-labeling error analysis | [Jurafsky & Martin, Ch. 17: Sequence Labeling](https://web.stanford.edu/~jurafsky/slp3/17.pdf) | HW 4 due; HW 5 released |
-| 10 | Oct 27 | Named entity recognition and linguistic annotation | [NLTK Book, Ch. 7, §5: Named Entity Recognition](https://www.nltk.org/book/ch07.html) | |
-|  | Oct 29 | Context-free grammars and syntactic parsing | [Jurafsky & Martin, Ch. 18: Context-Free Grammars and Constituency Parsing](https://web.stanford.edu/~jurafsky/slp3/18.pdf) | Presentation paper choice |
-| 11 | Nov 3 | Vector-space models, TF-IDF, and information retrieval | [Jurafsky & Martin, Ch. 11, §§11.1-11.2: Information Retrieval](https://web.stanford.edu/~jurafsky/slp3/11.pdf) | |
-|  | Nov 5 | Topic models, LDA, and discovering patterns in document collections | [scikit-learn: Topic Extraction with NMF and LDA](https://scikit-learn.org/stable/auto_examples/applications/plot_topics_extraction_with_nmf_lda.html) | HW 5 due; HW 6 released |
-| 12 | Nov 10 | Neural networks, embeddings, and model training | [Jurafsky & Martin, Ch. 5: Embeddings](https://web.stanford.edu/~jurafsky/slp3/5.pdf)<br/>[Jurafsky & Martin, Ch. 6: Neural Networks](https://web.stanford.edu/~jurafsky/slp3/6.pdf) | |
-|  | Nov 12 | What linguistic knowledge do language and speech models learn? | **Choose one:**<br/>[Choi et al. (2026), “\[b\] = \[d\] - \[t\] + \[p\]: Self-supervised Speech Models Discover Phonological Vector Arithmetic”](https://aclanthology.org/2026.findings-acl.537/)<br/>[Yang et al. (2025), “LingGym: How Far Are LLMs from Thinking Like Field Linguists?”](https://aclanthology.org/2025.emnlp-main.69/)<br/>[Warstadt et al. (2020), “BLiMP: The Benchmark of Linguistic Minimal Pairs for English”](https://aclanthology.org/2020.tacl-1.25/)<br/>[Ma & Miyao (2026), “The Imperfective Paradox in Large Language Models”](https://aclanthology.org/2026.acl-long.689/) | |
-| 13 | Nov 17 | Working with linguistic corpora: design, query, annotation, metadata, variation, and representativeness | [NLTK Book, Ch. 11, §§1 and 3.5: Managing Linguistic Data](https://www.nltk.org/book/ch11.html) | |
-|  | Nov 19 | Automatic speech recognition: speech representations, variation, and recognition errors | [Jurafsky & Martin, Ch. 14: Phonetics and Speech Feature Extraction](https://web.stanford.edu/~jurafsky/slp3/14.pdf)<br/>[Jurafsky & Martin, Ch. 15: Automatic Speech Recognition](https://web.stanford.edu/~jurafsky/slp3/15.pdf) | HW 6 due |
-| 14 | Nov 24 | Language variation, bias, and social impacts of NLP | **Choose one:**<br/>[Sap et al. (2019), “The Risk of Racial Bias in Hate Speech Detection”](https://aclanthology.org/P19-1163/)<br/>[Wassink et al. (2022), “Uneven Success: Automatic Speech Recognition and Ethnicity-Related Dialects”](https://www.sciencedirect.com/science/article/abs/pii/S0167639322000486)<br/>[Cheng et al. (2026), “Sycophantic AI Decreases Prosocial Intentions and Promotes Dependence”](https://arxiv.org/abs/2510.01395) | |
+|  | Oct 15 | Logistic regression | [Jurafsky & Martin, Ch. 4: Logistic Regression and Text Classification](https://web.stanford.edu/~jurafsky/slp3/4.pdf) | |
+| 9 | Oct 20 | Hidden Markov models and Viterbi | [Jurafsky & Martin, Appendix A: Hidden Markov Models](https://web.stanford.edu/~jurafsky/slp3/A.pdf) | |
+|  | Oct 22 | Part-of-speech tagging and error analysis | [Jurafsky & Martin, Ch. 17: Sequence Labeling](https://web.stanford.edu/~jurafsky/slp3/17.pdf) | HW 4 due; HW 5 released |
+| 10 | Oct 27 | Named entities and annotation | [NLTK Book, Ch. 7, §5: Named Entity Recognition](https://www.nltk.org/book/ch07.html) | |
+|  | Oct 29 | Grammars and parsing | [Jurafsky & Martin, Ch. 18: Context-Free Grammars and Constituency Parsing](https://web.stanford.edu/~jurafsky/slp3/18.pdf) | Presentation paper choice |
+| 11 | Nov 3 | TF-IDF and information retrieval | [Jurafsky & Martin, Ch. 11, §§11.1-11.2: Information Retrieval](https://web.stanford.edu/~jurafsky/slp3/11.pdf) | |
+|  | Nov 5 | Topic models | [scikit-learn: Topic Extraction with NMF and LDA](https://scikit-learn.org/stable/auto_examples/applications/plot_topics_extraction_with_nmf_lda.html) | HW 5 due; HW 6 released |
+| 12 | Nov 10 | Embeddings and neural networks | [Jurafsky & Martin, Ch. 5: Embeddings](https://web.stanford.edu/~jurafsky/slp3/5.pdf)<br/>[Jurafsky & Martin, Ch. 6: Neural Networks](https://web.stanford.edu/~jurafsky/slp3/6.pdf) | |
+|  | Nov 12 | Inside large language models | **Choose one:**<br/>[Choi et al. (2026), “\[b\] = \[d\] - \[t\] + \[p\]: Self-supervised Speech Models Discover Phonological Vector Arithmetic”](https://aclanthology.org/2026.findings-acl.537/)<br/>[Yang et al. (2025), “LingGym: How Far Are LLMs from Thinking Like Field Linguists?”](https://aclanthology.org/2025.emnlp-main.69/)<br/>[Warstadt et al. (2020), “BLiMP: The Benchmark of Linguistic Minimal Pairs for English”](https://aclanthology.org/2020.tacl-1.25/)<br/>[Ma & Miyao (2026), “The Imperfective Paradox in Large Language Models”](https://aclanthology.org/2026.acl-long.689/) | |
+| 13 | Nov 17 | Linguistic corpora | [NLTK Book, Ch. 11, §§1 and 3.5: Managing Linguistic Data](https://www.nltk.org/book/ch11.html) | |
+|  | Nov 19 | Automatic speech recognition | [Jurafsky & Martin, Ch. 14: Phonetics and Speech Feature Extraction](https://web.stanford.edu/~jurafsky/slp3/14.pdf)<br/>[Jurafsky & Martin, Ch. 15: Automatic Speech Recognition](https://web.stanford.edu/~jurafsky/slp3/15.pdf) | HW 6 due |
+| 14 | Nov 24 | Bias and social impacts of NLP | **Choose one:**<br/>[Sap et al. (2019), “The Risk of Racial Bias in Hate Speech Detection”](https://aclanthology.org/P19-1163/)<br/>[Wassink et al. (2022), “Uneven Success: Automatic Speech Recognition and Ethnicity-Related Dialects”](https://www.sciencedirect.com/science/article/abs/pii/S0167639322000486)<br/>[Cheng et al. (2026), “Sycophantic AI Decreases Prosocial Intentions and Promotes Dependence”](https://arxiv.org/abs/2510.01395) | |
 |  | Nov 26 | **No class: Thanksgiving Recess** | | |
-| 15 | Dec 1 | Student paper presentations | | Slides due for presenters |
-|  | Dec 3 | Student paper presentations and course synthesis | | Slides due for presenters |
+| 15 | Dec 1 | Paper presentations | | Slides due for presenters |
+|  | Dec 3 | Paper presentations and course synthesis | | Slides due for presenters |
 | Final exam | Dec 15 | **Take-home final exam due** | | Take-home final exam |
 
 <div style="margin-bottom: 4rem;"></div>

@@ -173,7 +173,7 @@ The schedule is a working plan and may change in response to class progress. Rea
 
 | Week | Date | Topic | Reading | Due |
 |---:|---|---|---|---|
-| 1 | Aug 25 | What is computational linguistics? | [Cotterell (2017), “Is ACL Interdisciplinary?”](https://medium.com/@ryancotterell/what-interdisciplinarity-in-acl-means-to-me-f070121bfa85)<br/>Optional: [Church & Liberman (2021), “The Future of Computational Linguistics: On Beyond Alchemy”](https://www.frontiersin.org/articles/10.3389/frai.2021.625341/full) | |
+| 1 | Aug 25 | [What is computational linguistics?](https://siyuliang.github.io/ling430fall26/slides/lec01a.pdf) | [Cotterell (2017), “Is ACL Interdisciplinary?”](https://medium.com/@ryancotterell/what-interdisciplinarity-in-acl-means-to-me-f070121bfa85)<br/>Optional: [Church & Liberman (2021), “The Future of Computational Linguistics: On Beyond Alchemy”](https://www.frontiersin.org/articles/10.3389/frai.2021.625341/full) | |
 |  | Aug 27 | Course setup | [Ma, Koedinger, & Wu (2025), “Not Everyone Wins with LLMs”](https://arxiv.org/abs/2509.21890) | HW 1 released|
 | 2 | Sep 1 | The command line and first Python | [Think Python, Ch. 1](https://greenteapress.com/thinkpython2/html/thinkpython2002.html)<br/>[NLTK Book, Ch. 1](https://www.nltk.org/book/ch01.html) | |
 |  | Sep 3 | Python building blocks: control flow and functions | [Think Python, Ch. 2](https://greenteapress.com/thinkpython2/html/thinkpython2003.html)<br/>[Think Python, Ch. 5, §§5.2-5.7](https://greenteapress.com/thinkpython2/html/thinkpython2006.html) | |

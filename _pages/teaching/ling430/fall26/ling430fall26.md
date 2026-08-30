@@ -57,7 +57,7 @@ This course is taught **in person**. Class meetings will include lectures, discu
 
 All required readings will be available at no cost through open-access sources or Canvas. We will draw selectively from the following references rather than read any one book from beginning to end:
 
-- **Downey (2024).** [*Think Python* (3rd ed.)](https://allendowney.github.io/ThinkPython/) — every chapter opens directly in Colab
+- **Downey (2024).** [*Think Python* (3rd ed.)](https://allendowney.github.io/ThinkPython/) 
 - **Jurafsky & Martin.** [*Speech and Language Processing* (3rd ed. draft)](https://web.stanford.edu/~jurafsky/slp3/)
 - **Bird, Klein, & Loper.** [*Natural Language Processing with Python*](https://www.nltk.org/book/)
 
@@ -88,7 +88,7 @@ Homework is graded on completion rather than correctness. You will receive a ful
 
 ### Paper presentation
 
-Students will give a 10-minute presentation on a peer-reviewed computational linguistics paper, either individually or in a pair. The presentation should explain the research question, data, method, and findings; connect the work to linguistic ideas from the course; and consider possible social consequences or limitations. 
+Students will give a 10-minute presentation on a peer-reviewed computational linguistics paper in a group of 2 to 3. The presentation should explain the research question, data, method, and findings; connect the work to linguistic ideas from the course; and consider possible social consequences or limitations. 
 
 Presentations will take place during the **last two class meetings, December 1 and December 3**. Paper choices are due October 29, and slides are due on the team's presentation day.
 

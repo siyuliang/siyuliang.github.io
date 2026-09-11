@@ -1,15 +1,15 @@
 ---
 layout: page
-permalink: /teaching/ling322/spring27/
+permalink: /teaching/ling332/spring27/
 # title: Speech Technology Syllabus
 # description: Spring 2027
 nav: false
-navbar_title: LING 322 Spring 2027
+navbar_title: Speech Technology Spring 2027
 hide_navbar_links: true
 hide_footer: true
 ---
 
-# LING 322: Speech Technology
+# LING 332: Speech Technology
 
 [Information](#information) · [Coursework](#coursework) · [Policies](#policies) · [Schedule](#schedule)
 

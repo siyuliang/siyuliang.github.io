@@ -9,6 +9,7 @@ hide_navbar_links: true
 hide_footer: true
 ---
 
+
 # LING 332: Speech Technology
 
 [Information](#information) · [Coursework](#coursework) · [Policies](#policies) · [Schedule](#schedule)
@@ -17,11 +18,11 @@ hide_footer: true
 
 ### Course description
 
-How do computers turn speech into text, recognize who is speaking, or generate a human-sounding voice? Why do these systems work well for some speakers and languages but poorly for others? This course introduces the technical knowledge to understand the current practice in speech technology and the relavant linguistic concepts behind it.
+How do computers turn speech into text, recognize who is speaking, or generate a human-sounding voice? Why do these systems work well for some speakers and languages but poorly for others? This course introduces the technical knowledge to understand the current practice in speech technology and the linguistic and social-scientific concepts behind it: how speech is produced and perceived, how pronunciation varies systematically by region, social group, and situation, and how that variation shapes the technologies built on it.
 
-We begin with the study of speech as a physical and linguistic signal, and then examine how speech is represented computationally and how modern systems perform tasks such as automatic speech recognition, speaker and language recognition, speech synthesis, and speech-to-speech interaction. We also discuss multilingual and low-resource speech technology, speech data and consent, evaluation, and bias.
+We begin with the study of speech as a physical and linguistic signal, and then examine how speech is represented computationally and how modern systems perform tasks such as automatic speech recognition, speaker and language recognition, speech synthesis, and speech-to-speech interaction. Drawing on sociolinguistics and the study of multilingualism, we also discuss accent and dialect variation, multilingual and low-resource speech technology, speech data and consent, evaluation, and bias.
 
-The course is open to students with little or no programming background. Supplementary materials in programming and linguistics are provided to help students from a range of backgrounds build the skills they need to participate fully. We will use structured coding notebooks to explore speech data and models. The emphasis is on understanding what a system does, designing informative experiments, interpreting outputs, and connecting computational behavior to concepts from linguistics such as phonetics, phonology, sociolinguistics, and language variation.
+The course is open to students with little or no programming background. Supplementary materials in programming and linguistics are provided to help students from a range of backgrounds build the skills they need to participate fully. We will use structured coding notebooks to explore speech data and models. Rather than treating these systems as black boxes, students ask why a system behaves as it does for a given speaker or language, design small experiments to find out, interpret the outputs, and connect computational behavior to concepts from linguistics such as phonetics, phonology, sociolinguistics, and language variation.
 
 ### Learning outcomes
 

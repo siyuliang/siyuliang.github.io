@@ -15,11 +15,11 @@ hide_footer: true
 
 ## Information {#information}
 
-### Course catalog description
+<!-- ### Course catalog description
 
-Asia is home to roughly a third of the world's languages and most of the major language families. This course surveys the remarkable diversity of languages in Asia from the Middle East and the Caucasus through Central, South, Southeast, and East Asia to Siberia, examining what they share in common and how they differ. Some of the topics covered include sound systems and tones, writing systems, word formation, sentence structure, language families, language contact and change, language policy, language endangerment, and technologies for Asian languages. No prior knowledge of linguistics or of any Asian language is required. 
+Asia is home to roughly a third of the world's languages and most of the major language families. This course surveys the remarkable diversity of languages in Asia from the Middle East and the Caucasus through Central, South, Southeast, and East Asia to Siberia, examining what they share in common and how they differ. Some of the topics covered include sound systems and tones, writing systems, word formation, sentence structure, language families, language contact and change, language policy, language endangerment, and technologies for Asian languages. No prior knowledge of linguistics or of any Asian language is required.  -->
 
-### Syllabus course description
+### Course description
 
 How widespread is tone among the languages of Asia? How did words such as "ketchup" and "tea" enter English? How have the writing systems of Asia been adapted to write different languages? What are the historical events linking languages such as Uyghur, Tibetan, Persian, Sanskrit, Arabic, Malay, and Chinese? Could large language models save money by "thinking" in Classical Chinese, and does building speech techonologies for Arabic cost more money than English? Where does "Asia" end linguistically, and what do we mean by an "Asian language"?
 
@@ -40,7 +40,7 @@ By the end of the course, you will be able to:
 - Analyze how honorifics, address terms, sentence-final particles, evidentiality, and cultural keywords express social relationships, speakers' perspectives, and cultural values.
 - Analyze how standardization, nationalism, migration, and language policy shape the status of languages and dialects, including minoritized and endangered languages.
 - Assess how Asian languages and scripts are represented, and underrepresented, in current language technologies.
-- Research and present a linguistic profile of a language, support the analysis with scholarly sources, and communicate the findings clearly to a general audience.
+- Research and present a basic linguistic description of a language, support the analysis with scholarly sources, and communicate the findings clearly to a general audience.
 
 ### Prerequisites
 
@@ -93,7 +93,7 @@ Preparation for this course draws, with gratitude, on materials from Zev Handel'
 
 There will be five problem sets. The lowest homework grade is dropped. All homework is due at 11:59 PM on the listed date.
 
-### Friday case studies and the feature profile
+### Language feature profile notebook
 
 Friday meetings are devoted to language case studies. The instructor presents six case studies during the first seven weeks (see the [schedule](#schedule)); from March 5 onward, Fridays are reserved for student presentations in a similar format. Case studies share a common **feature profile**, a checklist of the topics a linguistic description of a language typically covers:
 
@@ -106,15 +106,13 @@ Friday meetings are devoted to language case studies. The instructor presents si
 7. Historical development and language contact
 8. Sociolinguistics, language policy, or language technology
 
-A full profile touches on most of these topics, but no case study needs to cover all of them. The instructor case studies emphasize the topics relevant for the week, and students are free to focus on the topics according to their interests and experience.
+The language case study presentation usually touches on most of these topics, but need not cover all of them. Case studies may also emphasize the topics relevant for the week, and students are free to focus on the topics according to their interests and experience.
 
-### Feature-profile notebook
-
-For each weekly case study, prepare a one-page note on the language discussed that week, organized by the feature-profile topics covered, and submit it to your **feature-profile notebook** on Canvas by the following Monday. 
+For each weekly case study, students who are not presenting will prepare a one-page note on the language discussed that week, organized by the feature-profile topics covered, and submit it to the **feature-profile notebook** on Canvas by the following Monday. 
 
 ### Language case study
 
-The language case study is a group project. Working in groups of three to four, students prepare an oral presentation and a written case study of a language of Asia other than the instructor case studies listed in the schedule. The case study uses the feature profile as its framework, with detailed analysis of two or three topics and an explanation of their significance for the language. Sources must include at least one reference grammar or grammatical sketch and at least two peer-reviewed articles or book chapters. Group members may also draw on their own knowledge of the language or consult other speakers, with those speakers' permission.
+The language case study is a group project. Working in groups of three to four, students prepare an oral presentation and a written case study of a language of Asia other than those listed in the schedule. The case study uses the feature profile as its guideline, with detailed analysis of two or three topics and an explanation of their significance for the language. Sources must include at least one reference grammar or grammatical sketch and at least two peer-reviewed articles or book chapters. Group members may also draw on their own knowledge of the language or consult other speakers, with those speakers' permission.
 
 A list of suggested languages is posted on Canvas. Languages spoken in Houston's Asian communities are especially encouraged.
 
@@ -199,7 +197,7 @@ Please notify the instructor as early as possible if a religious observance conf
 
 ### Class schedule
 
-The schedule is subject to change based on course progress. Readings are to be completed **before** the associated meeting. Unless otherwise stated, assignments are due at 11:59 PM on the listed date. Readings marked "WML" are chapters of Comrie (ed.), *The World's Major Languages*; "LESA" is Goddard, *The Languages of East and Southeast Asia*; "LKL" is Lyovin, Kessler & Leben, *An Introduction to the Languages of the World*; "Campbell" is *Historical Linguistics*, 4th ed. Readings marked [Canvas] are posted as PDFs on Canvas. 
+The following schedule is subject to change. Readings are to be completed **before** the associated meeting. Unless otherwise stated, assignments are due at 11:59 PM on the listed date. Readings marked "WML" are chapters of Comrie (ed.), *The World's Major Languages*; "LESA" is Goddard, *The Languages of East and Southeast Asia*; "LKL" is Lyovin, Kessler & Leben, *An Introduction to the Languages of the World*; "Campbell" is *Historical Linguistics*, 4th ed. Readings marked [Canvas] are posted as PDFs on Canvas. 
 
 | Week | Date | Topic | Reading | Due |
 |---:|---|---|---|---|

@@ -122,7 +122,7 @@ A list of suggested languages is posted on Canvas. Languages spoken in Houston's
 | Proposal | Feb 10 | One page per group: why you chose the language, the two or three profile topics you will examine in detail, three potential sources, and a tentative division of work |
 | Presentation schedule | Feb 15 |  |
 | Annotated source list and profile draft | One week before your presentation | Drafts of topics 1–3 of the profile and an annotated list of at least five sources |
-| Presentation | Mar 5 – Apr 23 (assigned Friday) | 15-minute presentation plus 5 minutes of questions, with every group member presenting; one or two groups per Friday; slides due by 9 AM on your day |
+| Presentation | Mar 5 – Apr 23 (assigned Friday) | 15-minute presentation plus 5 minutes of questions, with every group member presenting; slides due by 9 AM on your day |
 | Written profile | May 4 | Around 3,000 words per group, with a brief statement of each member's contributions |
 
 Case studies are evaluated on the accuracy and depth of the linguistic description, the use of sources, clarity for a non-specialist audience, and connections to themes from the course. All members of a group receive the same grade unless the contribution statements or peer evaluations indicate a substantial imbalance. Presenting groups receive peer feedback, and all students are expected to ask questions on presentation days. Groups that present early are assessed on the topics they selected for detailed analysis and are expected to incorporate material from later units in the written profile. 

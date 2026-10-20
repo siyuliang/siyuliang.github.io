@@ -253,7 +253,7 @@ The following schedule is subject to change. Readings are to be completed **befo
 |  | Apr 16 | ***Student case studies 6*** | | Slides due 9 AM (presenters) |
 |  | | **IX. Language and technology; synthesis** | | |
 | 15 | Apr 19 | Language and technology: scripts and Unicode; input methods; tokenization; large language models and low-resource languages | [Joshi et al. (2020), "The State and Fate of Linguistic Diversity and Inclusion in the NLP World," ACL](https://aclanthology.org/2020.acl-main.560/)<br/>[Ahia et al. (2023), "Do All Languages Cost the Same? Tokenization in the Era of Commercial Language Models," EMNLP](https://aclanthology.org/2023.emnlp-main.614/) (read §§1–3)<br/>Activity: compare token counts and associated costs across scripts | |
-|  | Apr 21 | Synthesis: Asia as a linguistic region | Review your feature-profile notebook<br/>(Reserve day for student case studies if enrollment requires) | |
+|  | Apr 21 | Synthesis: Asia as a linguistic region | | |
 |  | Apr 23 | ***Student case studies 7*** and course review | | Slides due 9 AM (presenters) |
 | Finals | May 4 | **Written case-study profile due** | | Written profile |
 

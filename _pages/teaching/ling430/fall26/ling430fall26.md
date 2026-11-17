@@ -86,11 +86,11 @@ There will be six homework assignments. Most will provide starter code that you 
 
 Homework is graded on completion rather than correctness. You will receive a full grade for a genuine attempt that follows the instructions and explains your work. A clear explanation of an imperfect solution is more valuable than unexplained code that happens to run. Your lowest homework grade will be dropped, so the best five of six homework grades will count toward the final grade. Because the assignments build on one another, try to submit each one on time even if you expect it to be your dropped grade. 
 
-### Paper presentation
+### Paper review
 
-Students will give a 10-minute presentation on a peer-reviewed computational linguistics paper in a group of 2 to 3. The presentation should explain the research question, data, method, and findings; connect the work to linguistic ideas from the course; and consider possible social consequences or limitations. 
+Each student will write a review of a peer-reviewed computational linguistics paper. The review should explain the research question, especially the linguistic question the paper addresses; the data; the method; and the results. It should end with your own thoughts: for example, limitations, possible social consequences, how you would study the question without a large language model, or what other question the method could answer. 
 
-Presentations will take place during the **last two class meetings, December 1 and December 3**. Paper choices are due November 19, and slides are due on the team's presentation day.
+The review is **two pages, single-spaced, in 11-point font, and is due December 3**. The review replaces the paper presentation that was originally planned, and there are no class meetings on December 1 and December 3.
 
 ### Take-home final exam
 
@@ -101,7 +101,7 @@ The final is a **take-home exam due December 15**. It will focus on conceptual u
 | Component | Weight |
 |---|---:|
 | Homework (best 5 of 6 assignments) | 75% |
-| Paper presentation | 15% |
+| Paper review | 15% |
 | Take-home final exam | 10% |
 | Participation extra credit | Up to 2% |
 
@@ -161,7 +161,7 @@ Rice prohibits harassment, sexual harassment, sexual assault, dating violence, a
 
 ### Religious observances
 
-Please notify the instructor as early as possible if a religious observance conflicts with a class meeting, assignment, presentation, or exam so that a reasonable accommodation can be arranged.
+Please notify the instructor as early as possible if a religious observance conflicts with a class meeting, assignment, or exam so that a reasonable accommodation can be arranged.
 
 ---
 
@@ -197,12 +197,12 @@ The schedule is a working plan and may change in response to class progress. Rea
 |  | Nov 5 | [Word embeddings](https://siyuliang.github.io/ling430fall26/slides/lec11b.pdf) | [link](https://colab.research.google.com/github/siyuliang/ling430fall26/blob/main/classwork/class11b.ipynb) | [Jurafsky & Martin, Ch. 5, §§5.5–5.9: Word2vec, Visualizing Embeddings, Semantic Change, Bias](https://web.stanford.edu/~jurafsky/slp3/5.pdf) | [HW 6](https://siyuliang.github.io/ling430fall26/homework/hw6.docx) released |
 | 12 | Nov 10 | [Neural networks](https://siyuliang.github.io/ling430fall26/slides/lec12a.pdf) |  | [Jurafsky & Martin, Ch. 6, §§6.1–6.5: Neural Networks](https://web.stanford.edu/~jurafsky/slp3/6.pdf) | |
 |  | Nov 12 | [Large language models](https://siyuliang.github.io/ling430fall26/slides/lec12b.pdf) |  | [Jurafsky & Martin, Ch. 7, §§7.1–7.2 and 7.6–7.8: Attention, Transformer Blocks, Decoding, Pretraining, Current Models](https://web.stanford.edu/~jurafsky/slp3/7.pdf)<br/>Optional: [Jurafsky & Martin, Ch. 8, §8.1: Instruction Tuning](https://web.stanford.edu/~jurafsky/slp3/8.pdf) | HW 6 due |
-| 13 | Nov 17 | Computational linguistics research on large language models |  | **Choose one:**<br/>[Choi et al. (2026), “\[b\] = \[d\] - \[t\] + \[p\]: Self-supervised Speech Models Discover Phonological Vector Arithmetic”](https://aclanthology.org/2026.findings-acl.537/)<br/>[Yang et al. (2025), “LingGym: How Far Are LLMs from Thinking Like Field Linguists?”](https://aclanthology.org/2025.emnlp-main.69/)<br/>[Warstadt et al. (2020), “BLiMP: The Benchmark of Linguistic Minimal Pairs for English”](https://aclanthology.org/2020.tacl-1.25/)<br/>[Ma & Miyao (2026), “The Imperfective Paradox in Large Language Models”](https://aclanthology.org/2026.acl-long.689/)<br/>Optional: [Jurafsky & Martin, Ch. 10, §§10.1–10.2: Contextual Embeddings and Probing](https://web.stanford.edu/~jurafsky/slp3/10.pdf) | |
-|  | Nov 19 | Automatic speech recognition |  | [Jurafsky & Martin, Ch. 15, §§15.1–15.2 and 15.4–15.6: Phonetics and Speech Feature Extraction](https://web.stanford.edu/~jurafsky/slp3/15.pdf)<br/>[Jurafsky & Martin, Ch. 16, §§16.1, 16.3, and 16.6: The ASR Task, Encoder-Decoder Models, and Word Error Rate](https://web.stanford.edu/~jurafsky/slp3/16.pdf) | Presentation paper choice |
-| 14 | Nov 24 | Bias and social impacts of NLP |  | **Choose one:**<br/>[Sap et al. (2019), “The Risk of Racial Bias in Hate Speech Detection”](https://aclanthology.org/P19-1163/)<br/>[Wassink et al. (2022), “Uneven Success: Automatic Speech Recognition and Ethnicity-Related Dialects”](https://www.sciencedirect.com/science/article/abs/pii/S0167639322000486)<br/>[Cheng et al. (2026), “Sycophantic AI Decreases Prosocial Intentions and Promotes Dependence”](https://arxiv.org/abs/2510.01395) | |
+| 13 | Nov 17 | [Computational linguistics research on large language models](https://siyuliang.github.io/ling430fall26/slides/lec13a.pdf) |  | **Choose one:**<br/>[Choi et al. (2026), “\[b\] = \[d\] - \[t\] + \[p\]: Self-supervised Speech Models Discover Phonological Vector Arithmetic”](https://aclanthology.org/2026.findings-acl.537/)<br/>[Yang et al. (2025), “LingGym: How Far Are LLMs from Thinking Like Field Linguists?”](https://aclanthology.org/2025.emnlp-main.69/)<br/>[Warstadt et al. (2020), “BLiMP: The Benchmark of Linguistic Minimal Pairs for English”](https://aclanthology.org/2020.tacl-1.25/)<br/>[Ma & Miyao (2026), “The Imperfective Paradox in Large Language Models”](https://aclanthology.org/2026.acl-long.689/)<br/>Optional: [Jurafsky & Martin, Ch. 10, §§10.1–10.2: Contextual Embeddings and Probing](https://web.stanford.edu/~jurafsky/slp3/10.pdf) | |
+|  | Nov 19 | Automatic speech recognition |  | [Jurafsky & Martin, Ch. 15, §§15.1–15.2 and 15.4–15.6: Phonetics and Speech Feature Extraction](https://web.stanford.edu/~jurafsky/slp3/15.pdf)<br/>[Jurafsky & Martin, Ch. 16, §§16.1, 16.3, and 16.6: The ASR Task, Encoder-Decoder Models, and Word Error Rate](https://web.stanford.edu/~jurafsky/slp3/16.pdf) | |
+| 14 | Nov 24 | Bias and social impacts of NLP |  | **Choose one:**<br/>[Sap et al. (2019), “The Risk of Racial Bias in Hate Speech Detection”](https://aclanthology.org/P19-1163/)<br/>[Wassink et al. (2022), “Uneven Success: Automatic Speech Recognition and Ethnicity-Related Dialects”](https://www.sciencedirect.com/science/article/abs/pii/S0167639322000486)<br/>[Cheng et al. (2026), “Sycophantic AI Decreases Prosocial Intentions and Promotes Dependence”](https://arxiv.org/abs/2510.01395) | Sample final exam released |
 |  | Nov 26 | **No class: Thanksgiving Recess** |  | | |
-| 15 | Dec 1 | Paper presentations |  | | Slides due for presenters |
-|  | Dec 3 | Paper presentations and course synthesis |  | | Slides due for presenters |
+| 15 | Dec 1 | **No class** |  | | |
+|  | Dec 3 | **No class** |  | | Paper review due |
 | Final exam | Dec 15 | **Take-home final exam due** |  | | Take-home final exam |
 
 <div style="margin-bottom: 4rem;"></div>

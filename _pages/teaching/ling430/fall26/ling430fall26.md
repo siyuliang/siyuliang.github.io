@@ -90,11 +90,11 @@ Homework is graded on completion rather than correctness. You will receive a ful
 
 Each student will write a review of a peer-reviewed computational linguistics paper. The review should explain the research question, especially the linguistic question the paper addresses; the data; the method; and the results. It should end with your own thoughts: for example, limitations, possible social consequences, how you would study the question without a large language model, or what other question the method could answer. 
 
-The review is **two pages, single-spaced, in 11-point font, and is due December 3**. The review replaces the paper presentation that was originally planned, and there are no class meetings on December 1 and December 3.
+The review is **two pages, single-spaced, in 11-point font, and is due Saturday, December 5**. The review replaces the paper presentation that was originally planned, and there are no class meetings on December 1 and December 3.
 
 ### Take-home final exam
 
-The final is a **take-home exam due December 15**. It will focus on conceptual understanding, interpretation and correction of short code samples, pseudocode, evaluation, and the application of computational methods to language data. It will not require live coding or memorization of long programs. Instructions for submission will be posted on Canvas.
+The final is a **take-home exam released December 4 and due December 15**. It will focus on conceptual understanding, interpretation and correction of short code samples, pseudocode, evaluation, and the application of computational methods to language data. It will not require live coding or memorization of long programs. Instructions for submission will be posted on Canvas.
 
 ### Grading
 
@@ -202,7 +202,7 @@ The schedule is a working plan and may change in response to class progress. Rea
 | 14 | Nov 24 | Bias and social impacts of NLP |  | **Choose one:**<br/>[Sap et al. (2019), “The Risk of Racial Bias in Hate Speech Detection”](https://aclanthology.org/P19-1163/)<br/>[Wassink et al. (2022), “Uneven Success: Automatic Speech Recognition and Ethnicity-Related Dialects”](https://www.sciencedirect.com/science/article/abs/pii/S0167639322000486)<br/>[Cheng et al. (2026), “Sycophantic AI Decreases Prosocial Intentions and Promotes Dependence”](https://arxiv.org/abs/2510.01395) | Sample final exam released |
 |  | Nov 26 | **No class: Thanksgiving Recess** |  | | |
 | 15 | Dec 1 | **No class** |  | | |
-|  | Dec 3 | **No class** |  | | Paper review due |
+|  | Dec 3 | **No class** |  | | Take-home final exam released Friday, Dec 4; paper review due Saturday, Dec 5 |
 | Final exam | Dec 15 | **Take-home final exam due** |  | | Take-home final exam |
 
 <div style="margin-bottom: 4rem;"></div>
